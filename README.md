@@ -1,6 +1,6 @@
 
 
-![](img/gbv_badass.jpg)
+![imagen](img/gbv_badass.jpeg)
 
 Mis líneas de investigación son:
 

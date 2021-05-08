@@ -1,8 +1,5 @@
 
 
-![imagen](https://github.com/AltamarMx/altamarmx.github.io/blob/32a49a21e6aa5d3c095e79a3124f16c935805890/img/gbv_badass.jpeg)
-
-
 
 Mis **líneas de investigación** actuales son:
 

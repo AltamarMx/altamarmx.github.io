@@ -1,6 +1,3 @@
-
-
-
 Mis **líneas de investigación** actuales son:
 
 * Simulaciones térmicas de edificios completos y componentes

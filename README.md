@@ -1,5 +1,7 @@
 
 
+![](img/gbv_badass.jpg)
+
 Mis líneas de investigación son:
 
 * Transferencia de calor en componentes de la envolvente de edificaciones

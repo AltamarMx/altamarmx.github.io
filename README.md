@@ -32,7 +32,10 @@ Mis herramientas actuales de trabajo son:
 * MicroPython
 
 
-Actualmente, los estudiantes que están trabajando conmigo son:
+# Estudiantes
+
+## Estudiantes 
+
 
 * _Mariana López Magaña_, Tesis LIER: __High Dynamic Range photography for daylighting measurements with open technologies__
 * _Zyanya N. Mejia Trujillo_, Co-dirección Tesis LIER: __Comparison of a building thermal performance  simulation using EnergyPlus pressure coefficients and experimental__

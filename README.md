@@ -1,3 +1,4 @@
+## Líneas de Investigación
 Mis **líneas de investigación** actuales son:
 
 * Simulaciones térmicas de edificios completos y componentes
@@ -7,10 +8,14 @@ Mis **líneas de investigación** actuales son:
 * Ciencia de datos aplicado a edificaciones
 
 
+
 Estas líneas de investigación se encuentran principalmente 
 en el área de __Energía en Edificaciones__,
 y también están relacionadas con __Mecánica de Fluidos, Transferencia de Calor, Tecnologías de 
 la Información y Comunicación, Ciencia de Datos, Electrónica y OpenSource.__
+
+
+## Colaboración con Grupos
 
 En el [IER-UNAM](https://ier.unam.mx) colaboro con los siguientes grupos y laboratorios:
 
@@ -19,6 +24,8 @@ En el [IER-UNAM](https://ier.unam.mx) colaboro con los siguientes grupos y labor
 * [Grupo de Ciencia de Datos](https://gee.ier.unam.mx)
 * [Laboratorio de Tecnologías Abiertas y Más (LATA+)](https://lata.ier.unam.mx)
 
+
+## Herramientas de trabajo
 
 Mis herramientas actuales de trabajo son:
 
@@ -32,10 +39,8 @@ Mis herramientas actuales de trabajo son:
 * MicroPython
 
 
-# Estudiantes
 
 ## Estudiantes 
-
 
 * _Mariana López Magaña_, Tesis LIER: __High Dynamic Range photography for daylighting measurements with open technologies__
 * _Zyanya N. Mejia Trujillo_, Co-dirección Tesis LIER: __Comparison of a building thermal performance  simulation using EnergyPlus pressure coefficients and experimental__

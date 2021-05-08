@@ -19,6 +19,17 @@ En el [IER-UNAM](https://ier.unam.mx) colaboro con los siguientes grupos y labor
 * [Grupo de Ciencia de Datos](https://gee.ier.unam.mx)
 * [Laboratorio de Tecnologías Abiertas y Más (LATA+)](https://lata.ier.unam.mx)
 
+
+Mis herramientas actuales de trabajo son:
+
+* Python y Jupyter Notebook
+* C con gcc
+* GitHub
+* EnergyPlus
+* OpenStudio
+* Radiance
+
+
 ## Proyectos en GitHub
 ```
 python3 -m jupyter notebook

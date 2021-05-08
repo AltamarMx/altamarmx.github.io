@@ -16,7 +16,7 @@ En el [IER-UNAM](https://ier.unam.mx) colaboro con los siguientes grupos y labor
 * [Grupo de Energía en Edificaciones](https://gee.ier.unam.mx)
 * [Grupo de Tecnologías para la Educación](https://gee.ier.unam.mx)
 * [Grupo de Ciencia de Datos](https://gee.ier.unam.mx)
-* Laboratorio de Tecnologías Abiertas y Más [LATA+](https://lata.ier.unam.mx)
+* [Laboratorio de Tecnologías Abiertas y Más (LATA+)](https://lata.ier.unam.mx)
 
 ## Proyectos en GitHub
 ```

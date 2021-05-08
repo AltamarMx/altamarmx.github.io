@@ -2,14 +2,15 @@ Mis **líneas de investigación** actuales son:
 
 * Simulaciones térmicas de edificios completos y componentes
 * Análisis del desempeño térmico y energético en edificaciones
-* Iluminación natural en edificaciones con Radiance
-* Dispositivos con tecnologías abiertas para monitoreo de edificaciones
-* TICs para la educación
+* Evaluación de la iluminación natural en edificaciones
+* Desarrollo de dispositivos con tecnologías abiertas para monitoreo de edificaciones
+* Ciencia de datos aplicado a edificaciones
 
 
-Estas líneas de investigación se encuentran en las áreas de __Energía en Edificaciones__,
+Estas líneas de investigación se encuentran principalmente 
+en el área de __Energía en Edificaciones__,
 y también están relacionadas con __Mecánica de Fluidos, Transferencia de Calor, Tecnologías de 
-la Información y Comunicación, Electrónica y OpenSource.__
+la Información y Comunicación, Ciencia de Datos, Electrónica y OpenSource.__
 
 En el [IER-UNAM](https://ier.unam.mx) colaboro con los siguientes grupos y laboratorios:
 

@@ -1,13 +1,18 @@
 
 
-Ing. Mecánico por la Universidad de Colima, Maestro y Doctor en Ingeniería por el antes Centro de Investigación en Energía (ahora Instituto de Energías Renovables), e Investigador Titular **A** de Tiempo Completo
+Mis líneas de investigación son:
+
+* Transferencia de calor en componentes de la envolvente de edificaciones
+* Análisis del desempeño térmico y energético en edificaciones
+* Iluminación natural en edificaciones con Radiance
+* Dispositivos con tecnologías abiertas para monitoreo de edificaciones
+
 
 
 # Áreas de investigación
 
 * Transferencia de calor
 * Métodos numéricos
-* Desarrollo de dispositivos con tecnologías abiertas
 * Ciencia de datos
 
 

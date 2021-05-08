@@ -28,6 +28,8 @@ Mis herramientas actuales de trabajo son:
 * EnergyPlus
 * OpenStudio
 * Radiance
+* Arduino IDE
+* MicroPython
 
 
 ## Proyectos en GitHub

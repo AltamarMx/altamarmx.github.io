@@ -1,7 +1,6 @@
 ## Líneas de Investigación
 Mis **líneas de investigación** actuales son:
 
-# No tengo una macbook pro para ti Diego
 
 * Simulaciones térmicas de edificios completos y componentes
 * Análisis del desempeño térmico y energético en edificaciones

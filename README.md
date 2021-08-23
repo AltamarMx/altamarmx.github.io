@@ -6,14 +6,14 @@ Mis **líneas de investigación** actuales son:
 * Análisis del desempeño térmico y energético en edificaciones
 * Evaluación de la iluminación natural en edificaciones
 * Desarrollo de dispositivos con tecnologías abiertas para monitoreo de edificaciones
-* Ciencia de datos aplicado a edificaciones
+* Ciencia de datos e Inteligencia Artificial aplicado a edificaciones
 
 
 
-Estas líneas de investigación se encuentran principalmente 
+Estas líneas de investigación se encuentran principalmente
 en el área de __Energía en Edificaciones__,
-y también están relacionadas con __Mecánica de Fluidos, Transferencia de Calor, Tecnologías de 
-la Información y Comunicación, Ciencia de Datos, Electrónica y OpenSource.__
+y también están relacionadas con __Mecánica de Fluidos, Transferencia de Calor, Tecnologías de
+la Información y Comunicación, Ciencia de Datos, Electrónica y la Filosofía OpenSource.__
 
 
 
@@ -42,19 +42,18 @@ Mis herramientas actuales de trabajo son:
 
 
 
-## Estudiantes 
+## Estudiantes
 
 * _Mariana López Magaña_, Tesis LIER: __High Dynamic Range photography for daylighting measurements with open technologies__
 * _Zyanya N. Mejia Trujillo_, Co-dirección Tesis LIER: __Comparison of a building thermal performance  simulation using EnergyPlus pressure coefficients and experimental__
 * _Alejandro I. Guadarrama Zendejas_, Tesis LIER: __Weather imputation for EnergyPlus simulations__
+* _Jorge Ignacio Carrasco Quirós, Tesis LIER: __Heat flux prediction with deep networks__
 
 
-## Proyectos en GitHub
+## Proyectos
 ```
-python3 -m jupyter notebook
+Creación de un dispositivo para medir CO2 libre y barato
 ```
 
 ## Repositorios públicos
 [Cuenta de GitHub](https://github.com/AltamarMx)
-
-

@@ -81,17 +81,19 @@ ___
 
 * Paloma Xchel Vázquez Dávila, Tesis para ser Ingeniera en Energías Renovables,  (2019). __[Methodology to simulate a complex building using EnergyPlus: detailed case study for building 3.1]({{https://github.com/AltamarMx/altamarmx.github.io/}}tesis/L_paloma.pdf)__
 
-* Verónica Ivette Calixto Aguirre, Tesis para ser Ingeniera en Energías Renovables,  (2019). __[Methodology for the validation of thermal simulations of a real building]({{https://github.com/AltamarMx/altamarmx.github.io/}}tesis/L_ivette.pdf)__
+* Verónica Ivette Calixto Aguirre, Tesis para ser Ingeniera en Energías Renovables,  (2019). __[Methodology for the validation of thermal simulations of a real building]({{https://github.com/AltamarMx/altamarmx.github.io/}}tesis/L_ivette.pdf)
 
 ___
 ### Maestría
 
-* Verushka Gómez Dickinson, Tesis Posgrado en Ingeniería UNAM,  (2017). __[Simulación de la iluminación natural y el desempeño térmico de un espacio con un tubo solar](https)__
+* Verushka Gómez Dickinson, Tesis Posgrado en Ingeniería UNAM,  (2017). __[Simulación de la iluminación natural y el desempeño térmico de un espacio con un tubo solar]({{https://github.com/AltamarMx/altamarmx.github.io/}}tesis/M_verushka_2017.pdf)
 
-* Lucero Angeles de la Cruz, Tesis Posgrado en Ingeniería UNAM,  (2016). __[Estudio de la Transferencia de calor dependiente del tiempo en muros de bloques huecos de concreto](https)__
+*  Luz Elena Moreyra González, Tesis de Posgrado en Diseño Bioclimático, UAM, 2016. [Evaluación numérica de los efectos termoenergéticos de sistemas de acristalamiento en 2 climas de México]({{https://github.com/AltamarMx/altamarmx.github.io/}}tesis/M_luz_2016.pdf), Co-directores: Guillermo Barrios y  Pablo Elías.
+
+* Lucero Angeles de la Cruz, Tesis Posgrado en Ingeniería UNAM,  (2016). __[Estudio de la Transferencia de calor dependiente del tiempo en muros de bloques huecos de concreto]({{https://github.com/AltamarMx/altamarmx.github.io/}}tesis/M_lucero_2016.pdf)
 
 
-* _Miguel Casas Arredondo_, Tesis Posgrado en Ingeniería UNAM,  (2014). __[Simulación térmica de edificaciones con EnergyPlus y Ener-Habitat: análisis de la interacción entre los componentes de la envolvente](https)__
+* _Miguel Casas Arredondo_, Tesis Posgrado en Ingeniería UNAM,  (2014). __[Simulación térmica de edificaciones con EnergyPlus y Ener-Habitat: análisis de la interacción entre los componentes de la envolvente]({{https://github.com/AltamarMx/altamarmx.github.io/}}tesis/M_miguel_2014.pdf)
 
 
 ## Proyectos

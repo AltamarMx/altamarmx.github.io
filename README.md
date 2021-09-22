@@ -63,21 +63,21 @@ ___
 
 * Eros Vladimir Rosete Sánchez, Tesis para ser Ingeniero en Energías Renovables,  (2021). __[Simulación y dimensionamiento de un sistema de enfriamiento radiativo para un espacio en un clima cálido sub-húmedo](https)
 
-* Lucero Clarisa Betancourt García, Tesis para ser Ingeniera en Energías Renovables,  (2020). __[Simulación con Radiance de estrategias de iluminación natural para un espacio del IER](https://github.com/AltamarMx/altamarmx.github.io/blob/65d1a97b73f14779eae661167a46fa1ba31ea20b/tesis/L_clarisa.pdf)
+* Lucero Clarisa Betancourt García, Tesis para ser Ingeniera en Energías Renovables,  (2020). __[Simulación con Radiance de estrategias de iluminación natural para un espacio del IER](https://github.com/AltamarMx/altamarmx.github.io/blob/65d1a97b73f14779eae661167a46fa1ba31ea20b/tesis/L_clarisa.pdf)__
 
-* Paloma Xchel Vázquez Dávila, Tesis para ser Ingeniera en Energías Renovables,  (2019). __[Methodology to simulate a complex building using EnergyPlus: detailed case study for building 3.1](https)
+* Paloma Xchel Vázquez Dávila, Tesis para ser Ingeniera en Energías Renovables,  (2019). __[Methodology to simulate a complex building using EnergyPlus: detailed case study for building 3.1](https)__
 
-* Verónica Ivette Calixto Aguirre, Tesis para ser Ingeniera en Energías Renovables,  (2019). __[Methodology for the validation of thermal simulations of a real building](https)
+* Verónica Ivette Calixto Aguirre, Tesis para ser Ingeniera en Energías Renovables,  (2019). __[Methodology for the validation of thermal simulations of a real building](https)__
 
 ___
 ### Maestría
 
-* Verushka Gómez Dickinson, Tesis Posgrado en Ingeniería UNAM,  (2017). __[Simulación de la iluminación natural y el desempeño térmico de un espacio con un tubo solar](https)
+* Verushka Gómez Dickinson, Tesis Posgrado en Ingeniería UNAM,  (2017). __[Simulación de la iluminación natural y el desempeño térmico de un espacio con un tubo solar](https)__
 
-* Lucero Angeles de la Cruz, Tesis Posgrado en Ingeniería UNAM,  (2016). __[Estudio de la Transferencia de calor dependiente del tiempo en muros de bloques huecos de concreto](https)
+* Lucero Angeles de la Cruz, Tesis Posgrado en Ingeniería UNAM,  (2016). __[Estudio de la Transferencia de calor dependiente del tiempo en muros de bloques huecos de concreto](https)__
 
 
-* _Miguel Casas Arredondo_, Tesis Posgrado en Ingeniería UNAM,  (2014). __[Simulación térmica de edificaciones con EnergyPlus y Ener-Habitat: análisis de la interacción entre los componentes de la envolvente](https)
+* _Miguel Casas Arredondo_, Tesis Posgrado en Ingeniería UNAM,  (2014). __[Simulación térmica de edificaciones con EnergyPlus y Ener-Habitat: análisis de la interacción entre los componentes de la envolvente](https)__
 
 
 ## Proyectos

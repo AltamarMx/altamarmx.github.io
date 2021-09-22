@@ -58,9 +58,20 @@ ___
 # Estudiantes graduados
 
 ___
+
+
+
+### Técnico Superior Universitario
+
+*  __Miguel Ángel Huertero Diego__,  TSU en Mecatrónica, 2017: [Caracterización del sensor de viento Wind Sensor Rev. P.]({{https://github.com/AltamarMx/altamarmx.github.io/}}tesis/TSU_diego_2017.pdf)
+
+
+
+
 ### Licenciatura
 
-* Eros Vladimir Rosete Sánchez, Tesis para ser Ingeniero en Energías Renovables,  (2021). __[Simulación y dimensionamiento de un sistema de enfriamiento radiativo para un espacio en un clima cálido sub-húmedo]({{https://github.com/AltamarMx/altamarmx.github.io/}}tesis/L_eros.pdf)__
+
+* __Eros Vladimir Rosete Sánchez__, Tesis para ser Ingeniero en Energías Renovables, 2021. [Simulación y dimensionamiento de un sistema de enfriamiento radiativo para un espacio en un clima cálido sub-húmedo]({{https://github.com/AltamarMx/altamarmx.github.io/}}tesis/L_eros.pdf)
 
 * Lucero Clarisa Betancourt García, Tesis para ser Ingeniera en Energías Renovables,  (2020). __[Simulación con Radiance de estrategias de iluminación natural para un espacio del IER]({{https://github.com/AltamarMx/altamarmx.github.io/}}tesis/L_clarisa.pdf)__
 

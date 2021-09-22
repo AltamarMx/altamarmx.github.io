@@ -71,7 +71,7 @@ ___
 * __Paloma Xchel Vázquez Dávila__, Ingeniera en Energías Renovables,  (2019). [Methodology to simulate a complex building using EnergyPlus: detailed case study for building 3.1]({{https://github.com/AltamarMx/altamarmx.github.io/}}tesis/L_paloma.pdf)
 * __Verónica Ivette Calixto Aguirre__, Ingeniera en Energías Renovables,  (2019). __[Methodology for the validation of thermal simulations of a real building]({{https://github.com/AltamarMx/altamarmx.github.io/}}tesis/L_ivette.pdf)
 * __Ariadna Ocampo Astudillo__, Ingeniera en Tecnología Ambiental, 2015. [Estudio numérico de la transferencia de calor en edificaciones para potencializar el ahorro energético en México]({{https://github.com/AltamarMx/altamarmx.github.io/}}tesis/L_ariadna_2015.pdf)
- * __Miguel Casas Arredondo__, Ingeniero en Mantenimiento Industrial, UTEZ 2010,Estado del arte de Energía en Edificaciones.
+ * __Miguel Casas Arredondo__, Ingeniero en Mantenimiento Industrial, UTEZ, 2010. __Estado del arte de Energía en Edificaciones.__
 ___
 ### Maestría
 

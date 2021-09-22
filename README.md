@@ -52,14 +52,22 @@ Mis herramientas actuales de trabajo son:
 
 
 
-## Estudiantes graduados
+___
+
+
+# Estudiantes graduados
 
 ___
 ### Licenciatura
-* _Mariana López Magaña_, Tesis LIER: __High Dynamic Range photography for daylighting measurements with open technologies__
-* _Zyanya N. Mejia Trujillo_, Co-dirección Tesis LIER: __Comparison of a building thermal performance  simulation using EnergyPlus pressure coefficients and experimental__
-* _Alejandro I. Guadarrama Zendejas_, Tesis LIER: __Weather imputation for EnergyPlus simulations__
-* _Jorge Ignacio Carrasco Quirós, Tesis LIER: __Heat flux prediction with deep networks__
+
+
+* Eros Vladimir Rosete Sánchez, Tesis para ser Ingeniero en Energías Renovables,  (2021). __[Simulación y dimensionamiento de un sistema de enfriamiento radiativo para un espacio en un clima cálido sub-húmedo](https)
+
+* Lucero Clarisa Betancourt García, Tesis para ser Ingeniera en Energías Renovables,  (2020). __[Simulación con Radiance de estrategias de iluminación natural para un espacio del IER](https)
+
+* Paloma Xchel Vázquez Dávila, Tesis para ser Ingeniera en Energías Renovables,  (2019). __[Methodology to simulate a complex building using EnergyPlus: detailed case study for building 3.1](https)
+
+* Verónica Ivette Calixto Aguirre, Tesis para ser Ingeniera en Energías Renovables,  (2019). __[Methodology for the validation of thermal simulations of a real building](https)
 
 ___
 ### Maestría

@@ -63,7 +63,7 @@ ___
 
 * Eros Vladimir Rosete Sánchez, Tesis para ser Ingeniero en Energías Renovables,  (2021). __[Simulación y dimensionamiento de un sistema de enfriamiento radiativo para un espacio en un clima cálido sub-húmedo](https)
 
-* Lucero Clarisa Betancourt García, Tesis para ser Ingeniera en Energías Renovables,  (2020). __[Simulación con Radiance de estrategias de iluminación natural para un espacio del IER](https)
+* Lucero Clarisa Betancourt García, Tesis para ser Ingeniera en Energías Renovables,  (2020). __[Simulación con Radiance de estrategias de iluminación natural para un espacio del IER](https://github.com/AltamarMx/altamarmx.github.io/blob/65d1a97b73f14779eae661167a46fa1ba31ea20b/tesis/L_clarisa.pdf)
 
 * Paloma Xchel Vázquez Dávila, Tesis para ser Ingeniera en Energías Renovables,  (2019). __[Methodology to simulate a complex building using EnergyPlus: detailed case study for building 3.1](https)
 

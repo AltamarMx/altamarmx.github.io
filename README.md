@@ -60,13 +60,13 @@ ___
 ___
 ### Licenciatura
 
-* Eros Vladimir Rosete Sánchez, Tesis para ser Ingeniero en Energías Renovables,  (2021). __[Simulación y dimensionamiento de un sistema de enfriamiento radiativo para un espacio en un clima cálido sub-húmedo](https)
+* Eros Vladimir Rosete Sánchez, Tesis para ser Ingeniero en Energías Renovables,  (2021). __[Simulación y dimensionamiento de un sistema de enfriamiento radiativo para un espacio en un clima cálido sub-húmedo]({{https://github.com/AltamarMx/altamarmx.github.io/}}tesis/L_eros.pdf)__
 
 * Lucero Clarisa Betancourt García, Tesis para ser Ingeniera en Energías Renovables,  (2020). __[Simulación con Radiance de estrategias de iluminación natural para un espacio del IER]({{https://github.com/AltamarMx/altamarmx.github.io/}}tesis/L_clarisa.pdf)__
 
-* Paloma Xchel Vázquez Dávila, Tesis para ser Ingeniera en Energías Renovables,  (2019). __[Methodology to simulate a complex building using EnergyPlus: detailed case study for building 3.1](https)__
+* Paloma Xchel Vázquez Dávila, Tesis para ser Ingeniera en Energías Renovables,  (2019). __[Methodology to simulate a complex building using EnergyPlus: detailed case study for building 3.1]({{https://github.com/AltamarMx/altamarmx.github.io/}}tesis/L_paloma.pdf)__
 
-* Verónica Ivette Calixto Aguirre, Tesis para ser Ingeniera en Energías Renovables,  (2019). __[Methodology for the validation of thermal simulations of a real building](https)__
+* Verónica Ivette Calixto Aguirre, Tesis para ser Ingeniera en Energías Renovables,  (2019). __[Methodology for the validation of thermal simulations of a real building]({{https://github.com/AltamarMx/altamarmx.github.io/}}tesis/L_ivette.pdf)__
 
 ___
 ### Maestría

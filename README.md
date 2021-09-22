@@ -42,12 +42,34 @@ Mis herramientas actuales de trabajo son:
 
 
 
-## Estudiantes
+## Estudiantes actuales
 
 * _Mariana López Magaña_, Tesis LIER: __High Dynamic Range photography for daylighting measurements with open technologies__
 * _Zyanya N. Mejia Trujillo_, Co-dirección Tesis LIER: __Comparison of a building thermal performance  simulation using EnergyPlus pressure coefficients and experimental__
 * _Alejandro I. Guadarrama Zendejas_, Tesis LIER: __Weather imputation for EnergyPlus simulations__
 * _Jorge Ignacio Carrasco Quirós, Tesis LIER: __Heat flux prediction with deep networks__
+
+
+
+
+## Estudiantes graduados
+
+___
+### Licenciatura
+* _Mariana López Magaña_, Tesis LIER: __High Dynamic Range photography for daylighting measurements with open technologies__
+* _Zyanya N. Mejia Trujillo_, Co-dirección Tesis LIER: __Comparison of a building thermal performance  simulation using EnergyPlus pressure coefficients and experimental__
+* _Alejandro I. Guadarrama Zendejas_, Tesis LIER: __Weather imputation for EnergyPlus simulations__
+* _Jorge Ignacio Carrasco Quirós, Tesis LIER: __Heat flux prediction with deep networks__
+
+___
+### Maestría
+
+* Verushka Gómez Dickinson, Tesis Posgrado en Ingeniería UNAM,  (2017). __[Simulación de la iluminación natural y el desempeño térmico de un espacio con un tubo solar](https)
+
+* Lucero Angeles de la Cruz, Tesis Posgrado en Ingeniería UNAM,  (2016). __[Estudio de la Transferencia de calor dependiente del tiempo en muros de bloques huecos de concreto](https)
+
+
+* _Miguel Casas Arredondo_, Tesis Posgrado en Ingeniería UNAM,  (2014). __[Simulación térmica de edificaciones con EnergyPlus y Ener-Habitat: análisis de la interacción entre los componentes de la envolvente](https)
 
 
 ## Proyectos

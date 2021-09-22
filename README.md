@@ -83,6 +83,9 @@ ___
 
 * Verónica Ivette Calixto Aguirre, Tesis para ser Ingeniera en Energías Renovables,  (2019). __[Methodology for the validation of thermal simulations of a real building]({{https://github.com/AltamarMx/altamarmx.github.io/}}tesis/L_ivette.pdf)
 
+
+* _Ariadna Ocampo Astudillo_, Tesis para Ingeniera en Tecnología Ambiental, 2015. __[Estudio numérico de la transferencia de calor en edificaciones para potencializar el ahorro energético en México]({{https://github.com/AltamarMx/altamarmx.github.io/}}tesis/L_ariadna_2015.pdf)
+ * __Miguel Casas Arredondo__, Ingeniero en Mantenimiento Industrial, UTEZ 2010,Estado del arte de Energía en Edificaciones.
 ___
 ### Maestría
 
@@ -91,6 +94,7 @@ ___
 *  Luz Elena Moreyra González, Tesis de Posgrado en Diseño Bioclimático, UAM, 2016. [Evaluación numérica de los efectos termoenergéticos de sistemas de acristalamiento en 2 climas de México]({{https://github.com/AltamarMx/altamarmx.github.io/}}tesis/M_luz_2016.pdf), Co-directores: Guillermo Barrios y  Pablo Elías.
 
 * Lucero Angeles de la Cruz, Tesis Posgrado en Ingeniería UNAM,  (2016). __[Estudio de la Transferencia de calor dependiente del tiempo en muros de bloques huecos de concreto]({{https://github.com/AltamarMx/altamarmx.github.io/}}tesis/M_lucero_2016.pdf)
+
 
 
 * _Miguel Casas Arredondo_, Tesis Posgrado en Ingeniería UNAM,  (2014). __[Simulación térmica de edificaciones con EnergyPlus y Ener-Habitat: análisis de la interacción entre los componentes de la envolvente]({{https://github.com/AltamarMx/altamarmx.github.io/}}tesis/M_miguel_2014.pdf)

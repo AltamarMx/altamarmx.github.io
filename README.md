@@ -63,7 +63,11 @@ ___
 
 ### Técnico Superior Universitario
 
+
+
 *  __Miguel Ángel Huertero Diego__,  TSU en Mecatrónica, 2017: [Caracterización del sensor de viento Wind Sensor Rev. P.]({{https://github.com/AltamarMx/altamarmx.github.io/}}tesis/TSU_diego_2017.pdf)
+
+*  __Arturo Irineo Francisco__,  TSU en Mecatrónica, 2016: [Lectura y adquisición de datos con software libre]({{https://github.com/AltamarMx/altamarmx.github.io/}}tesis/TSU_arturo_2016.pdf)
 
 
 

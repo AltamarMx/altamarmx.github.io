@@ -72,7 +72,9 @@ ___
 * __Verónica Ivette Calixto Aguirre__, Ingeniera en Energías Renovables,  (2019). __[Methodology for the validation of thermal simulations of a real building]({{https://github.com/AltamarMx/altamarmx.github.io/}}tesis/L_ivette.pdf)
 * __Ariadna Ocampo Astudillo__, Ingeniera en Tecnología Ambiental, 2015. [Estudio numérico de la transferencia de calor en edificaciones para potencializar el ahorro energético en México]({{https://github.com/AltamarMx/altamarmx.github.io/}}tesis/L_ariadna_2015.pdf)
  * __Miguel Casas Arredondo__, Ingeniero en Mantenimiento Industrial, UTEZ, 2010. __Estado del arte de Energía en Edificaciones.__
-___
+
+
+
 ### Maestría
 
 * __Verushka Gómez Dickinson__, Maestra en Ingeniería: Energía, 2017. [Simulación de la iluminación natural y el desempeño térmico de un espacio con un tubo solar]({{https://github.com/AltamarMx/altamarmx.github.io/}}tesis/M_verushka_2017.pdf)

@@ -64,7 +64,7 @@ ___
 
 
 ### Licenciatura
-* __Mariana López Magaña__, Ingeniera en Energías Renovables, 2021: __High Dynamic Range photography for daylighting measurements with open technologies__ [YouTube](https://youtu.be/034EfUJZuQw)
+* __Mariana López Magaña__, Ingeniera en Energías Renovables, 2021: [High Dynamic Range photography for daylighting measurements with open technologies]({{https://github.com/AltamarMx/altamarmx.github.io/}}tesis/L_mariana_2021.pdf) [YouTube](https://youtu.be/034EfUJZuQw)
 
 * __Eros Vladimir Rosete Sánchez__, Ingeniero en Energías Renovables, 2021. [Simulación y dimensionamiento de un sistema de enfriamiento radiativo para un espacio en un clima cálido sub-húmedo]({{https://github.com/AltamarMx/altamarmx.github.io/}}tesis/L_eros.pdf) [YouTube](https://youtu.be/JALIFtBfRJE)
 * __Lucero Clarisa Betancourt García__, Ingeniera en Energías Renovables,  (2020). [Simulación con Radiance de estrategias de iluminación natural para un espacio del IER]({{https://github.com/AltamarMx/altamarmx.github.io/}}tesis/L_clarisa.pdf)

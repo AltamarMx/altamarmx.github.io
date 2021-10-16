@@ -44,7 +44,6 @@ Mis herramientas actuales de trabajo son:
 
 ## Estudiantes actuales
 
-* __Mariana López Magaña__, Tesis LIER: __High Dynamic Range photography for daylighting measurements with open technologies__
 * __Zyanya N. Mejia Trujillo__, Co-dirección Tesis LIER: __Comparison of a building thermal performance  simulation using EnergyPlus pressure coefficients and experimental__
 * __Alejandro I. Guadarrama Zendejas__, Tesis LIER: __Weather imputation for EnergyPlus simulations__
 * __Jorge Ignacio Carrasco Quirós__, Tesis LIER: __Heat flux prediction with deep networks__
@@ -65,8 +64,9 @@ ___
 
 
 ### Licenciatura
+* __Mariana López Magaña__, Ingeniera en Energías Renovables, 2021: __High Dynamic Range photography for daylighting measurements with open technologies__ [YouTube](https://youtu.be/034EfUJZuQw)
 
-* __Eros Vladimir Rosete Sánchez__, Ingeniero en Energías Renovables, 2021. [Simulación y dimensionamiento de un sistema de enfriamiento radiativo para un espacio en un clima cálido sub-húmedo]({{https://github.com/AltamarMx/altamarmx.github.io/}}tesis/L_eros.pdf)
+* __Eros Vladimir Rosete Sánchez__, Ingeniero en Energías Renovables, 2021. [Simulación y dimensionamiento de un sistema de enfriamiento radiativo para un espacio en un clima cálido sub-húmedo]({{https://github.com/AltamarMx/altamarmx.github.io/}}tesis/L_eros.pdf) [YouTube](https://youtu.be/JALIFtBfRJE)
 * __Lucero Clarisa Betancourt García__, Ingeniera en Energías Renovables,  (2020). [Simulación con Radiance de estrategias de iluminación natural para un espacio del IER]({{https://github.com/AltamarMx/altamarmx.github.io/}}tesis/L_clarisa.pdf)
 * __Paloma Xchel Vázquez Dávila__, Ingeniera en Energías Renovables,  (2019). [Methodology to simulate a complex building using EnergyPlus: detailed case study for building 3.1]({{https://github.com/AltamarMx/altamarmx.github.io/}}tesis/L_paloma.pdf)
 * __Verónica Ivette Calixto Aguirre__, Ingeniera en Energías Renovables,  (2019). __[Methodology for the validation of thermal simulations of a real building]({{https://github.com/AltamarMx/altamarmx.github.io/}}tesis/L_ivette.pdf)

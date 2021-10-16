@@ -90,3 +90,6 @@ Creación de un dispositivo para medir CO2 libre y barato
 
 ## Repositorios públicos
 [Cuenta de GitHub](https://github.com/AltamarMx)
+
+
+<div>Iconos diseñados por <a href="https://www.flaticon.es/autores/alfredo-hernandez" title="Alfredo Hernandez">Alfredo Hernandez</a> from <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a></div>

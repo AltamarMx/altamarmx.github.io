@@ -64,9 +64,8 @@ ___
 
 
 ### Licenciatura
-* __Mariana López Magaña__, Ingeniera en Energías Renovables, 2021: [High Dynamic Range photography for daylighting measurements with open technologies]({{https://github.com/AltamarMx/altamarmx.github.io/}}tesis/L_mariana_2021.pdf) [YouTube](https://youtu.be/034EfUJZuQw)
-
-* __Eros Vladimir Rosete Sánchez__, Ingeniero en Energías Renovables, 2021. [Simulación y dimensionamiento de un sistema de enfriamiento radiativo para un espacio en un clima cálido sub-húmedo]({{https://github.com/AltamarMx/altamarmx.github.io/}}tesis/L_eros.pdf) [YouTube](https://youtu.be/JALIFtBfRJE)
+* __Mariana López Magaña__, Ingeniera en Energías Renovables, 2021: [High Dynamic Range photography for daylighting measurements with open technologies]({{https://github.com/AltamarMx/altamarmx.github.io/}}tesis/L_mariana_2021.pdf) [Presentación en YouTube](https://youtu.be/034EfUJZuQw)
+* __Eros Vladimir Rosete Sánchez__, Ingeniero en Energías Renovables, 2021. [Simulación y dimensionamiento de un sistema de enfriamiento radiativo para un espacio en un clima cálido sub-húmedo]({{https://github.com/AltamarMx/altamarmx.github.io/}}tesis/L_eros.pdf)[Presentación en YouTube](https://youtu.be/JALIFtBfRJE)
 * __Lucero Clarisa Betancourt García__, Ingeniera en Energías Renovables,  (2020). [Simulación con Radiance de estrategias de iluminación natural para un espacio del IER]({{https://github.com/AltamarMx/altamarmx.github.io/}}tesis/L_clarisa.pdf)
 * __Paloma Xchel Vázquez Dávila__, Ingeniera en Energías Renovables,  (2019). [Methodology to simulate a complex building using EnergyPlus: detailed case study for building 3.1]({{https://github.com/AltamarMx/altamarmx.github.io/}}tesis/L_paloma.pdf)
 * __Verónica Ivette Calixto Aguirre__, Ingeniera en Energías Renovables,  (2019). __[Methodology for the validation of thermal simulations of a real building]({{https://github.com/AltamarMx/altamarmx.github.io/}}tesis/L_ivette.pdf)
@@ -92,5 +91,3 @@ Creación de un dispositivo para medir CO2 libre y barato
 [Cuenta de GitHub](https://github.com/AltamarMx)
 
 ___
-
-<div>Iconos diseñados por <a href="https://www.flaticon.es/autores/alfredo-hernandez" title="Alfredo Hernandez">Alfredo Hernandez</a> from <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a></div>

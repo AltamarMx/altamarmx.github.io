@@ -69,6 +69,7 @@ ___
 * __Lucero Clarisa Betancourt García__, Ingeniera en Energías Renovables,  (2020). [Simulación con Radiance de estrategias de iluminación natural para un espacio del IER]({{https://github.com/AltamarMx/altamarmx.github.io/}}tesis/L_clarisa.pdf)
 * __Paloma Xchel Vázquez Dávila__, Ingeniera en Energías Renovables,  (2019). [Methodology to simulate a complex building using EnergyPlus: detailed case study for building 3.1]({{https://github.com/AltamarMx/altamarmx.github.io/}}tesis/L_paloma.pdf)
 * __Verónica Ivette Calixto Aguirre__, Ingeniera en Energías Renovables,  (2019). __[Methodology for the validation of thermal simulations of a real building]({{https://github.com/AltamarMx/altamarmx.github.io/}}tesis/L_ivette.pdf)
+* __José María Aguilar Mier__, Ingeniero en Tecnología Ambiental, 2018. [Validación de la simplificación del método EHLS para la transferencia de calor a través de la envolvente de una edificación]({{https://github.com/AltamarMx/altamarmx.github.io/}}tesis/L_josemaria_2018.pdf)
 * __Ariadna Ocampo Astudillo__, Ingeniera en Tecnología Ambiental, 2015. [Estudio numérico de la transferencia de calor en edificaciones para potencializar el ahorro energético en México]({{https://github.com/AltamarMx/altamarmx.github.io/}}tesis/L_ariadna_2015.pdf)
  * __Miguel Casas Arredondo__, Ingeniero en Mantenimiento Industrial, UTEZ, 2010. __Estado del arte de Energía en Edificaciones.__
 

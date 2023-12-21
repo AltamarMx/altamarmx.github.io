@@ -4,6 +4,7 @@ title:  Un gran equipe
 date:   2022-09-23 18:40:16
 description: Un gran equipe, un gran trabajo
 tags: python noticias
+category: educación programación 
 ---
 Desde hace más de un año que junto con Diego Canul, Kevin Alquicira, Celeste Morales y Grecia Suárez, comenzamos a plantearla idea de un gran curso de Python para ingeniería.
 

@@ -3,7 +3,8 @@ layout: distill
 title: Python para Ingeniería
 description: De cero a infinito
 date: 2022-09-28
-tags: python noticias
+tags: python matplotlib
+category: educación
 authors:
   - name: Ana Gabriela Álvarez
     url: "https://github.com/gabyagaa"

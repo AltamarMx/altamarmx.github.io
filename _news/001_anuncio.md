@@ -48,7 +48,10 @@ Al terminar la tesis, la persona que haga la tesis habrá aprendido a:
     Desarrollar un paquete para ser hospedado en GitHub y registrado en PyPI.
     </li>
     <li>
-    Desarrollar una página del proyecto en GitHub pages.
+    Desarrollar una web app.
+    </li>
+    <li>
+    Documentar el proyecto.
     </li>
 
 </ul>

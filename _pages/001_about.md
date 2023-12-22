@@ -21,6 +21,6 @@ social: true  # includes social icons at the bottom of the page
 ---
 Mis áreas de investigación son `energía en edificaciones`,  `ciencia de datos`  y desarrollo de `dispositivos para el monitoreo`  del comportamiento térmico y energético de edificaciones.
 
-Soy usuario por convicción y diversión de tecnologías libres como Linux, `Python` y Arduino. Miembro fundador del Grupo de Tecnologías Abiertas y del Laboratorio que lleva el mismo nombre. En el [IER-UNAM](www.ier.unam.mx) desarrollo gran parte de mi investigación con el Grupo de Energía en Edificaciones.
+Soy usuario por convicción y diversión de tecnologías libres como Linux, `Python` y Arduino. Miembro fundador del Grupo de Tecnologías Abiertas y del Laboratorio que lleva el mismo nombre. En el [IER-UNAM](www.ier.unam.mx) desarrollo gran parte de mi investigación con el ```Grupo de Energía en Edificaciones```.
 
 La docencia es una de mis pasiones. Suelo dar cursos de ```OpenStudio```, ```EnergyPlus```, ```Python``` y métodos numéricos aplicados a transferencia de calor en edificaciones.

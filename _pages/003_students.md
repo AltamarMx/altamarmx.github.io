@@ -2,7 +2,7 @@
 layout: page
 title: estudiantes
 permalink: /projects/
-description: Estudiantes con los que colaboros
+description: Estudiantes con los que colaboro.
 nav: true
 nav_order: 3
 display_categories: [licenciatura, maestría, doctorado, en proceso]

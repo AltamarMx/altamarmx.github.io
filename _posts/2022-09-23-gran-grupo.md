@@ -4,9 +4,9 @@ title:  Un gran equipe
 date:   2022-09-23 18:40:16
 description: Un gran equipe, un gran trabajo
 tags: python noticias
-category: educación programación 
+category: educación
 ---
-Desde hace más de un año que junto con Diego Canul, Kevin Alquicira, Celeste Morales y Grecia Suárez, comenzamos a plantearla idea de un gran curso de Python para ingeniería.
+Desde hace más de un año que junto con Diego Canul, Kevin Alquicira, Celeste Morales y Grecia Suárez, comenzamos a plantearla idea de un gran curso de Python para ingeniería..
 
 El antecedente fue un curso de Python para el posgrado en Ingeniería que impartimos entre Kevin, Diego y yo. Y luego vino la idea,que tal si hacemos un curso asíncrono, que lo puedan tomar quienes  lo deseen cuando tengan tiempo. Habíamos platicado mucho que en la LIER se les debería enseñar a usar Python alrededor del tercer semestre, y que la comunidad estudiantil del posgrado en ingeniería debería poder tener disponible este curso cada semestre. La posibilidad de incluir Python entre tercer y cuarto semestre de la LIER no se ve real, y ofrecer Python para posgrado cada semestre, muy desgastante.
 

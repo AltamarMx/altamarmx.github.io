@@ -1,0 +1,12 @@
+---
+title: "Estudiantes"
+listing:
+  filter-ui: true
+  id: estudiantes
+  contents: 
+    - licenciatura.yaml
+    - maestria.yaml
+    - doctorado.yaml
+  type: grid
+---
+ 

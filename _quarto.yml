@@ -1,0 +1,22 @@
+project:
+  type: website
+lang: es
+
+
+website:
+  title: "Guillermo Barrios"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Acerca
+      - estudiantes.qmd
+      - articulos.qmd
+
+format:
+  html:
+    theme: cosmo
+    # css: styles.css
+    toc: true
+
+
+

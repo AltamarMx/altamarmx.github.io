@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.36">
+<meta name="generator" content="quarto-1.6.42">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Articulos – Guillermo Barrios</title>
+<title>Estudiantes – Guillermo Barrios</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,15 +30,19 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-01c78b5cd655e4cd89133cf59d535862.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b53751a350365c71b6c909e95f209ed1.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-1322888c997fad56b0b4d776d35cf542.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-4968d28af72d4e5a34172c9bc5ef961b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-bd21be224d3c18e074efcd5cf41426bc.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -66,7 +70,66 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Buscar"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-estudiantes .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-author','listing-title','listing-image','listing-date','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-author","listing-title","listing-image","listing-date","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-estudiantes'] = new List('listing-estudiantes', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+<script src="https://kit.fontawesome.com/TU_KIT.js" crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -88,20 +151,28 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
-<span class="menu-text">Acerca</span></a>
+    <a class="nav-link" href="./articulos.html"> 
+<span class="menu-text">Artículos</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./estudiantes.html"> 
-<span class="menu-text">Estudiantes</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-estudiantes" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Estudiantes</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-estudiantes">    
+        <li>
+    <a class="dropdown-item" href="./graduades.html">
+ <span class="dropdown-text">Studs graduades</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link active" href="./articulos.html" aria-current="page"> 
-<span class="menu-text">Articulos</span></a>
+        <li>
+    <a class="dropdown-item" href="./estudiantes_proceso.html">
+ <span class="dropdown-text">Studs en proceso</span></a>
   </li>  
+    </ul>
+  </li>
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Alternar modo oscuro"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -118,7 +189,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Articulos</h1>
+<h1 class="title">Estudiantes</h1>
 </div>
 
 
@@ -135,11 +206,293 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Papers</p>
 
 
 
-</main> <!-- /main -->
+
+<div class="quarto-listing quarto-listing-container-grid" id="listing-estudiantes">
+<div class="listing-actions-group">
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filtro">
+    </div>
+</div>
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="cmV2aXNpJUMzJUIzbg==" data-listing-date-sort="1291183200000">
+<a href="./pdfs/lic_MiguelCasasArredondo.pdf" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./img/lic_MiguelCasasArredondo.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Estado del arte de energía en edificaciones
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('cmV2aXNpJUMzJUIzbg=='); return false;">
+revisión
+</div>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Jorge Miguel Casas Arredondo
+</div>
+<div class="listing-date">
+1 dic 2010
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="RW5lcmd5UGx1cw==" data-listing-date-sort="1420351200000">
+<a href="pdfs/lic_AriadnaOcampoAstudillo.pdf" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="img/lic_AriadnaOcampoAstudillo.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Estudio numérico de la transferencia de calor en edificaciones para potencializar el ahorro energético en México
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('RW5lcmd5UGx1cw=='); return false;">
+EnergyPlus
+</div>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Ariadna Ocampo Astudillo
+</div>
+<div class="listing-date">
+4 ene 2015
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="RW5lcmd5UGx1cyUyQ0VITFM=" data-listing-date-sort="1515218400000">
+<a href="pdfs/lic_JoseMariaAguilarMier.pdf" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="img/lic_JoseMariaAguilarMier.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Validación de la simplificación del método EHLS para la transferencia de calor a través de la envolvente de una edificación
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('RW5lcmd5UGx1cw=='); return false;">
+EnergyPlus
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('RUhMUw=='); return false;">
+EHLS
+</div>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+José María Aguilar Mier
+</div>
+<div class="listing-date">
+6 ene 2018
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="3" data-categories="RW5lcmd5UGx1cw==" data-listing-date-sort="1546668000000">
+<a href="http://132.248.9.195/ptd2021/marzo/0809864/Index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="img/lic_ErosVladimirRoseteSanchez.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Simulación y dimensionamiento de un sistema de enfriamiento radiativo para un espacio en un clima cálido sub-húmedo
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('RW5lcmd5UGx1cw=='); return false;">
+EnergyPlus
+</div>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Eros Vladimir Rosete Sánchez
+</div>
+<div class="listing-date">
+5 ene 2019
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="4" data-categories="UmFkaWFuY2U=" data-listing-date-sort="1607148000000">
+<a href="http://132.248.9.195/ptd2020/mayo/0801935/Index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="img/lic_LuceroClarisaBetancourtGarcia.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Simulación con Radiance de estrategias de iluminación natural para un espacio del IER
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('UmFkaWFuY2U='); return false;">
+Radiance
+</div>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Lucero Clarisa Betancourt García
+</div>
+<div class="listing-date">
+5 dic 2020
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="5" data-categories="RGlzcG9zaXRpdm9z" data-listing-date-sort="1623301200000">
+<a href="http://132.248.9.195/ptd2021/octubre/0816491/Index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="img/lic_MarianaLopezMagana.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+High Dynamic Range photography for daylighting measurements with open technologies
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('RGlzcG9zaXRpdm9z'); return false;">
+Dispositivos
+</div>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Mariana López Magaña
+</div>
+<div class="listing-date">
+10 jun 2021
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="6" data-categories="RW5lcmd5UGx1cw==" data-listing-date-sort="1614837600000">
+<a href="http://132.248.9.195/ptd2019/junio/0790103/Index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="img/lic_PalomaXchelVazquezDavila.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Methodology to simulate a complex building using EnergyPlus: detailed case study for building 3.1
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('RW5lcmd5UGx1cw=='); return false;">
+EnergyPlus
+</div>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Paloma Xchel Vázquez Dávila
+</div>
+<div class="listing-date">
+4 mar 2021
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="7" data-categories="ZGF0YXNjaWVuY2UlMkNFbmVyZ3lQbHVz" data-listing-date-sort="1644386400000">
+<a href="http://132.248.9.195/ptd2022/agosto/0829083/Index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="img/lic_AlejandroIsmaelGuadarramaZendejas.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Meteorological data imputation and its impact on EnergyPlus simulations
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('ZGF0YXNjaWVuY2U='); return false;">
+datascience
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('RW5lcmd5UGx1cw=='); return false;">
+EnergyPlus
+</div>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Alejandro Ismael Guadarrama Zendejas
+</div>
+<div class="listing-date">
+9 feb 2022
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="8" data-categories="bWFlc3RyaWE=">
+<a href="http://132.248.9.195/ptd2021/marzo/0809864/Index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="img/evrs.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Tesis de maestria
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('bWFlc3RyaWE='); return false;">
+maestria
+</div>
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+maestro
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="9" data-categories="ZG9jdG9yYWRv">
+<a href="http://132.248.9.195/ptd2021/marzo/0809864/Index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="img/evrs.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Tesis de doctor
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('ZG9jdG9yYWRv'); return false;">
+doctorado
+</div>
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+doctora
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No hay resultados
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -160,6 +513,150 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+    let newTheme = '';
+    if(darkModeDefault) {
+      newTheme = isAlternate ? baseTheme : alternateTheme;
+    } else {
+      newTheme = isAlternate ? alternateTheme : baseTheme;
+    }
+    const changeGiscusTheme = () => {
+      // From: https://github.com/giscus/giscus/issues/336
+      const sendMessage = (message) => {
+        const iframe = document.querySelector('iframe.giscus-frame');
+        if (!iframe) return;
+        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+      }
+      sendMessage({
+        setConfig: {
+          theme: newTheme
+        }
+      });
+    }
+    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+    if (isGiscussLoaded) {
+      changeGiscusTheme();
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  const darkModeDefault = false;
+  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+    toggleGiscusIfUsed(toAlternate, darkModeDefault);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
   const icon = "";
   const anchorJS = new window.AnchorJS();
   anchorJS.options = {

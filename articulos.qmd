@@ -1,6 +1,74 @@
 ---
-title: "Articulos"
-bibliography: papers.bib
+title: "Artículos"
+bibliography: "papers.bib"
+jupyter: python3
 ---
 
+```{python}
 
+#| echo: false
+#| results: asis
+
+from IPython.display import display, HTML
+from pybtex.database import parse_file, BibliographyData
+from pybtex.plugin import find_plugin
+from pybtex.backends import plaintext
+
+# Leer el archivo BibTeX
+bib_data = parse_file('papers.bib')
+
+# Separar por año
+publicaciones_por_ano = {}
+for key, entry in bib_data.entries.items():
+    ano = entry.fields.get("year", "Sin año")
+    publicaciones_por_ano.setdefault(ano, []).append(entry)
+
+# Ordenar los años descendente
+años_ordenados = sorted(publicaciones_por_ano.keys(), reverse=True)
+
+# Cargar estilo (aunque en este ejemplo no se utiliza)
+estilo = find_plugin('pybtex.style.formatting', 'plain')()
+backend = plaintext.Backend()
+
+# Acumular el contenido HTML en una variable
+html_content = ""
+
+for ano in años_ordenados:
+    html_content += f"<h2>{ano}</h2>"
+    html_content += "<hr style='border: none; border-top: 1px solid #ddd; margin-bottom: 20px;'>"
+    
+    for entry in publicaciones_por_ano[ano]:
+        journal = entry.fields.get("journal", "")
+        title = entry.fields.get("title", "").replace('{', '').replace('}', '')
+        autores = ', '.join(str(person) for person in entry.persons.get('author', []))
+        doi = entry.fields.get("doi", "")
+        url = entry.fields.get("url", "")
+        
+        # Crear el enlace: se da preferencia al DOI. Si no existe, se usa url.
+        link = ""
+        if doi:
+            link = f'<a href="https://doi.org/{doi}" target="_blank">[URL]</a>'
+        elif url:
+            link = f'<a href="{url}" target="_blank">[URL]</a>'
+        
+        temp_bib = BibliographyData(entries={entry.key: entry})
+        bib_str = temp_bib.to_string("bibtex").replace('\n', '<br>')
+        
+        html_content += f"""
+        <div style='margin-bottom:15px; padding:10px; background-color:#f8f9fa; border-radius:5px;'>
+            <div><strong>{journal}</strong></div>
+            <div><em>{title}</em></div>
+            <div>{autores}</div>
+            <div style='margin-top:5px;'>
+                {link}
+                <details style='margin-top:5px;'><summary>BibTeX</summary>
+                <pre style='background:#efefef;padding:10px;'>{bib_str}</pre></details>
+            </div>
+        </div>
+        """
+
+# Renderizar el HTML acumulado en la salida
+display(HTML(html_content))
+
+
+```

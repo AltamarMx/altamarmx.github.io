@@ -1,6 +1,62 @@
+- author:  Jorge Miguel Casas Arredondo
+  title: "Estado del arte de energía en edificaciones"
+  image: ./img/lic_MiguelCasasArredondo.png
+  path: ./pdfs/lic_MiguelCasasArredondo.pdf
+  date: "12/1/2010"
+  categories: [revisión] 
+
+
+- title: "Estudio numérico de la transferencia de calor en edificaciones para potencializar el ahorro energético en México"
+  author: Ariadna Ocampo Astudillo
+  image: img/lic_AriadnaOcampoAstudillo.png
+  path: pdfs/lic_AriadnaOcampoAstudillo.pdf
+  date: "01/04/2015"
+  categories: [EnergyPlus]
+
+
+- title: "Validación de la simplificación del método EHLS para la transferencia de calor a través de la envolvente de una edificación"
+  author: José María Aguilar Mier
+  image: img/lic_JoseMariaAguilarMier.png
+  path: pdfs/lic_JoseMariaAguilarMier.pdf
+  date: "01/06/2018"
+  categories: [EnergyPlus, EHLS]
+
+
+
 - title: "Simulación y dimensionamiento de un sistema de enfriamiento radiativo para un espacio en un clima cálido sub-húmedo"
   author: Eros Vladimir Rosete Sánchez
-  image: img/evrs.jpg
+  image: img/lic_ErosVladimirRoseteSanchez.jpg
   path: http://132.248.9.195/ptd2021/marzo/0809864/Index.html
+  date: "01/05/2019"
+  categories: [EnergyPlus]
+
+- title: "Simulación con Radiance de estrategias de iluminación natural para un espacio del IER"
+  author: Lucero Clarisa Betancourt García
+  image: img/lic_LuceroClarisaBetancourtGarcia.png
+  path: http://132.248.9.195/ptd2020/mayo/0801935/Index.html
+  date: "12/05/2020"
+  categories: [Radiance]
+
+- title: "High Dynamic Range photography for daylighting measurements with open technologies"
+  author: Mariana López Magaña
+  image: img/lic_MarianaLopezMagana.png
+  path: http://132.248.9.195/ptd2021/octubre/0816491/Index.html
+  date: "06/10/2021"
+  categories: [Dispositivos]
+  
+- title: "Methodology to simulate a complex building using EnergyPlus: detailed case study for building 3.1"
+  author: Paloma Xchel Vázquez Dávila
+  image: img/lic_PalomaXchelVazquezDavila.png
+  path: http://132.248.9.195/ptd2019/junio/0790103/Index.html
   date: "3/04/2021"
-  categories: [licenciatura]
+  categories: [EnergyPlus]
+  
+
+- author:  "Alejandro Ismael Guadarrama Zendejas"
+  title: "Meteorological data imputation and its impact on EnergyPlus simulations"
+  image: img/lic_AlejandroIsmaelGuadarramaZendejas.png
+  path: http://132.248.9.195/ptd2022/agosto/0829083/Index.html
+  date: "02/09/2022"
+  categories: [datascience, EnergyPlus] 
+
+  

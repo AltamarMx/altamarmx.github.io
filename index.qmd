@@ -6,20 +6,45 @@ about:
     image: img/perfil.jpg
     image-shape: round
     image-width: 15em  
-css: styles.css  # Link to your custom CSS file
+    links:
+        - icon: twitter
+          text: Twitter
+          url: https://twitter.com/altamar
+        - icon: github
+          text: Github
+          url: https://github.com/altamarmx
+        - icon: instagram
+          text: Instagram
+          url: https://www.instagram.com/altamar
+        - icon: orcid
+          text: "ORCID"
+          url: https://orcid.org/0000-0003-2738-297X
+        - icon: graduation-cap
+          text: "Google Scholar"
+          url: https://scholar.google.com/citations?user=KoUmiVwAAAAJ
+        - icon: youtube
+          text: YouTube
+          url: https://youtube.com/@AltamarMx
+        - icon: tiktok
+          text: TikTok
+          url: https://tiktok.com/@Altamar_Mx
+
+
+# css: styles.css  # Link to your custom CSS file
 ---
 
 
-:::{#hero-heading}
+:::{#hero-heading} 
 
 [Instituto de Energías Renovables](https://www.ier.unam.mx), UNAM.
 
-Mis áreas de investigación son **energía en edificaciones**, **ciencia de datos** y desarrollo de **dispositivos para el monitoreo** del comportamiento térmico y energético de edificaciones.
+Mis áreas de investigación son `energía en edificaciones`, `ciencia de datos` y desarrollo de `dispositivos para el monitoreo` del comportamiento térmico y energético de edificaciones.
  
+ 
+Soy usuario por convicción y diversión de tecnologías libres como Linux, **Python** y Arduino. Miembro fundador del Grupo de Tecnologías Abiertas y del Laboratorio que lleva el mismo nombre. En el [IER-UNAM](https://www.ier.unam.mx) desarrollo gran parte de mi investigación con el [**Grupo de Energía en Edificaciones**](https://www.ier.unam.mx/Eficiencia_y_sustentabilidad.html).
+
+
     
 :::
-
-
-Soy usuario por convicción y diversión de tecnologías libres como Linux, **Python** y Arduino. Miembro fundador del Grupo de Tecnologías Abiertas y del Laboratorio que lleva el mismo nombre. En el [IER-UNAM](https://www.ier.unam.mx) desarrollo gran parte de mi investigación con el **Grupo de Energía en Edificaciones**.
 
 La docencia es una de mis pasiones. Suelo dar cursos de **OpenStudio**, **EnergyPlus**, **Python** y métodos numéricos aplicados a transferencia de calor en edificaciones.  

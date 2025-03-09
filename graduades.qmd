@@ -1,0 +1,26 @@
+---
+title: "Estudiantes"
+listing:
+  - id: licenciatura
+    contents: "licenciatura.yaml"
+    type: default  
+    # filter-ui: [categories]
+
+  - id: maestria
+    contents: "maestria.yaml"
+    type: table
+  #   - maestria.yaml
+  #   - doctorado.yaml
+  # type: default
+---
+ 
+
+## Licenciatura
+
+:::{#licenciatura}
+:::
+
+## Maestría
+
+:::{#maestria}
+:::

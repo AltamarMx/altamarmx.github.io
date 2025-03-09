@@ -1,22 +1,32 @@
 project:
   type: website
-lang: es
+  output-dir: docs  
 
 
 website:
   title: "Guillermo Barrios"
   navbar:
     left:
-      - href: index.qmd
-        text: Acerca
-      - estudiantes.qmd
+      # - href: index.qmd
+      #   text: Acerca de
       - articulos.qmd
-
+      - text: "Estudiantes"
+        menu:
+        - href: graduades.qmd
+          text: "Studs graduades"
+        - href: estudiantes_proceso.qmd
+          text: "Studs en proceso"
 format:
   html:
-    theme: cosmo
+    theme:
+      light: lux
+      dark: slate
+
+    include-in-header:
+      - text: |
+          <script src="https://kit.fontawesome.com/TU_KIT.js" crossorigin="anonymous"></script>
+
     # css: styles.css
     toc: true
 
-
-
+lang: es

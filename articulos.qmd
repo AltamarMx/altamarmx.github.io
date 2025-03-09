@@ -23,10 +23,10 @@ for key, entry in bib_data.entries.items():
     ano = entry.fields.get("year", "Sin año")
     publicaciones_por_ano.setdefault(ano, []).append(entry)
 
-# Ordenar los años descendente
+# Ordenar los años de manera descendente
 años_ordenados = sorted(publicaciones_por_ano.keys(), reverse=True)
 
-# Cargar estilo (aunque en este ejemplo no se utiliza)
+# Cargar estilo (aunque en este ejemplo no se utiliza explícitamente)
 estilo = find_plugin('pybtex.style.formatting', 'plain')()
 backend = plaintext.Backend()
 
@@ -45,24 +45,44 @@ for ano in años_ordenados:
         url = entry.fields.get("url", "")
         
         # Crear el enlace: se da preferencia al DOI. Si no existe, se usa url.
-        link = ""
         if doi:
             link = f'<a href="https://doi.org/{doi}" target="_blank">[URL]</a>'
         elif url:
             link = f'<a href="{url}" target="_blank">[URL]</a>'
+        else:
+            link = ""
         
+        # Obtener la ruta de la imagen (campo 'image' en el .bib)
+        imagen = entry.fields.get("image", "")
+        # Si no se encuentra el campo, se construye la ruta a partir del key
+        if not imagen:
+            imagen = f"img_papers/{entry.key}.png"
+        
+        # HTML para la imagen
+        if imagen:
+            imagen_html = f'<img src="{imagen}" alt="Imagen del artículo" style="max-width:150px; margin-bottom:10px;">'
+        else:
+            imagen_html = ""
+        
+        # Generar el contenido BibTeX
         temp_bib = BibliographyData(entries={entry.key: entry})
         bib_str = temp_bib.to_string("bibtex").replace('\n', '<br>')
         
+        # Construir el bloque HTML con flexbox para que la imagen quede a la izquierda
         html_content += f"""
-        <div style='margin-bottom:15px; padding:10px; background-color:#f8f9fa; border-radius:5px;'>
-            <div><strong>{journal}</strong></div>
-            <div><em>{title}</em></div>
-            <div>{autores}</div>
-            <div style='margin-top:5px;'>
-                {link}
-                <details style='margin-top:5px;'><summary>BibTeX</summary>
-                <pre style='background:#efefef;padding:10px;'>{bib_str}</pre></details>
+        <div style='display:flex; align-items:flex-start; margin-bottom:15px; padding:10px; background-color:#f8f9fa; border-radius:5px;'>
+            <div style='flex:0 0 auto; margin-right:15px;'>
+                {imagen_html}
+            </div>
+            <div style='flex:1;'>
+                <div><strong>{journal}</strong></div>
+                <div><em>{title}</em></div>
+                <div>{autores}</div>
+                <div style='margin-top:5px;'>
+                    {link}
+                    <details style='margin-top:5px;'><summary>BibTeX</summary>
+                    <pre style='background:#efefef;padding:10px;'>{bib_str}</pre></details>
+                </div>
             </div>
         </div>
         """
@@ -72,3 +92,5 @@ display(HTML(html_content))
 
 
 ```
+
+ 

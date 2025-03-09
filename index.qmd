@@ -2,26 +2,26 @@
 title: "Guillermo Barrios"
 about:
     id: hero-heading
-    template: solana
+    template: jolla
     image: img/perfil.jpg
     image-shape: round
     image-width: 15em  
     links:
-        - icon: twitter
-          text: Twitter
-          url: https://twitter.com/altamar
-        - icon: github
-          text: Github
-          url: https://github.com/altamarmx
-        - icon: instagram
-          text: Instagram
-          url: https://www.instagram.com/altamar
         - icon: orcid
           text: "ORCID"
           url: https://orcid.org/0000-0003-2738-297X
         - icon: graduation-cap
           text: "Google Scholar"
           url: https://scholar.google.com/citations?user=KoUmiVwAAAAJ
+        - icon: github
+          text: Github
+          url: https://github.com/altamarmx
+        - icon: twitter
+          text: Twitter
+          url: https://twitter.com/altamar
+        # - icon: instagram
+        #   text: Instagram
+        #   url: https://www.instagram.com/altamar
         - icon: youtube
           text: YouTube
           url: https://youtube.com/@AltamarMx
@@ -34,7 +34,7 @@ about:
 ---
 
 
-:::{#hero-heading} 
+:::{##hero-heading} 
 
 [Instituto de Energías Renovables](https://www.ier.unam.mx), UNAM.
 
@@ -43,7 +43,7 @@ Mis áreas de investigación son `energía en edificaciones`, `ciencia de datos`
  
 Soy usuario por convicción y diversión de tecnologías libres como Linux, **Python** y Arduino. Miembro fundador del Grupo de Tecnologías Abiertas y del Laboratorio que lleva el mismo nombre. En el [IER-UNAM](https://www.ier.unam.mx) desarrollo gran parte de mi investigación con el [**Grupo de Energía en Edificaciones**](https://www.ier.unam.mx/Eficiencia_y_sustentabilidad.html).
 
-
+  
     
 :::
 

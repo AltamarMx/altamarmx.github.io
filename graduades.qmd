@@ -8,7 +8,7 @@ listing:
 
   - id: maestria
     contents: "maestria.yaml"
-    type: table
+    type: default
   #   - maestria.yaml
   #   - doctorado.yaml
   # type: default

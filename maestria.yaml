@@ -1,5 +1,27 @@
-- title: "Tesis de maestria "
-  author: maestro
-  image: img/evrs.jpg
-  path: http://132.248.9.195/ptd2021/marzo/0809864/Index.html
-  categories: [maestria]
+- title: "Estudio numérico de la transferencia de calor en muros de bloques huecos de concreto"
+  author: Lucero Ángeles de la Cruz
+  image: img/m_LuceroAngeles.png
+  path: http://132.248.9.195/ptd2016/marzo/0742261/Index.html
+  date: "03/01/2016"
+  categories: [EHLS, TRANSFERENCIA DE CALOR]
+
+- title: "Simulación de la iluminación natural y el desempeño térmico de un espacio con un tubo solar"
+  author: Verushka Gómez Dickinson
+  image: img/m_VerushkaGomez.png
+  path: http://132.248.9.195/ptd2017/enero/0754866/Index.html
+  date: "01/01/2017"
+  categories: [RADIANCE, ILUMINACIÓN NATURAL]
+
+- title: "Evaluation of the NZEB definitions in a new building at IER-UNAM"
+  author: José Ignacio Maciel Hernández
+  image: img/m_IgnacioMacielHernandez.png
+  path: http://132.248.9.195/ptd2024/abr_jun/0856086/Index.html
+  date: "05/01/2024"
+  categories: [NZEB, ENERGYPLUS]
+  
+- title: "Reloj inteligente IoT basado en tecnologías abiertas para la recopilación de datos de confort térmico "
+  author: Julio López Landa
+  image: img/m_JulioLopezLanda.png
+  date: "04/01/2025"
+  path: https://altamarmx.github.io/reloj_inteligente/
+  categories: [Dispositivos]

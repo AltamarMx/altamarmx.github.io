@@ -1,7 +1,5 @@
-- author:  Jorge Miguel Casas Arredondo
-  title: "Estado del arte de energía en edificaciones"
-  image: ./img/lic_MiguelCasasArredondo.png
-  path: ./pdfs/lic_MiguelCasasArredondo.pdf
-  date: "12/1/2010"
-  categories: [revisión] 
 
+- author: Benjamín Beltrán Santamaría 
+  Institución: IER, UNAM.
+  Tema: Tableros para literacidad bioclimática
+  categories: [datascience]

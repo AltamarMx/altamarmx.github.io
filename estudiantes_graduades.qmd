@@ -2,13 +2,14 @@
 title: "Estudiantes"
 listing:
   - id: licenciatura
-    contents: "licenciatura.yaml"
-    type: default  
+    contents: "estudiantes/licenciatura.yaml"
+    type: grid 
+    sort: "date"
     # filter-ui: [categories]
 
   - id: maestria
-    contents: "maestria.yaml"
-    type: default
+    contents: "estudiantes/maestria.yaml"
+    type: grid
   #   - maestria.yaml
   #   - doctorado.yaml
   # type: default

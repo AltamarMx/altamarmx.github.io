@@ -111,41 +111,13 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-author','listing-Institución','listing-Tema','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-author','listing-image','listing-date','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-author","listing-Institución","listing-Tema","listing-categories"],
+      searchColumns: ["listing-title","listing-author","listing-image","listing-date","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
     window['quarto-listings']['listing-maestria'] = new List('listing-maestria', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-doctorado .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-author','listing-Institución','listing-Tema','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-author","listing-Institución","listing-Tema","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-doctorado'] = new List('listing-doctorado', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -409,7 +381,6 @@ window.Quarto = {
   <ul>
   <li><a href="#licenciatura" id="toc-licenciatura" class="nav-link active" data-scroll-target="#licenciatura">Licenciatura</a></li>
   <li><a href="#maestría" id="toc-maestría" class="nav-link" data-scroll-target="#maestría">Maestría</a></li>
-  <li><a href="#doctorado" id="toc-doctorado" class="nav-link" data-scroll-target="#doctorado">Doctorado</a></li>
   </ul>
 </nav>
     </div>
@@ -466,6 +437,272 @@ Jorge Miguel Casas Arredondo
 </div>
 </div></a>
 </div>
+<div class="g-col-1" data-index="1" data-categories="RW5lcmd5UGx1cw==" data-listing-date-sort="1420351200000">
+<a href="pdfs/lic_AriadnaOcampoAstudillo.pdf" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="img/lic_AriadnaOcampoAstudillo.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Estudio numérico de la transferencia de calor en edificaciones para potencializar el ahorro energético en México
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('RW5lcmd5UGx1cw=='); return false;">EnergyPlus</div>
+
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Ariadna Ocampo Astudillo
+</div>
+<div class="listing-date">
+4 ene 2015
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="RW5lcmd5UGx1cyUyQ0VITFM=" data-listing-date-sort="1515218400000">
+<a href="pdfs/lic_JoseMariaAguilarMier.pdf" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="img/lic_JoseMariaAguilarMier.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Validación de la simplificación del método EHLS para la transferencia de calor a través de la envolvente de una edificación
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('RW5lcmd5UGx1cw=='); return false;">EnergyPlus</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('RUhMUw=='); return false;">EHLS</div>
+
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+José María Aguilar Mier
+</div>
+<div class="listing-date">
+6 ene 2018
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="3" data-categories="RW5lcmd5UGx1cw==" data-listing-date-sort="1546668000000">
+<a href="http://132.248.9.195/ptd2021/marzo/0809864/Index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="img/lic_ErosVladimirRoseteSanchez.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Simulación y dimensionamiento de un sistema de enfriamiento radiativo para un espacio en un clima cálido sub-húmedo
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('RW5lcmd5UGx1cw=='); return false;">EnergyPlus</div>
+
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Eros Vladimir Rosete Sánchez
+</div>
+<div class="listing-date">
+5 ene 2019
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="4" data-categories="UmFkaWFuY2U=" data-listing-date-sort="1607148000000">
+<a href="http://132.248.9.195/ptd2020/mayo/0801935/Index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="img/lic_LuceroClarisaBetancourtGarcia.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Simulación con Radiance de estrategias de iluminación natural para un espacio del IER
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('UmFkaWFuY2U='); return false;">Radiance</div>
+
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Lucero Clarisa Betancourt García
+</div>
+<div class="listing-date">
+5 dic 2020
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="5" data-categories="RW5lcmd5UGx1cw==" data-listing-date-sort="1614837600000">
+<a href="http://132.248.9.195/ptd2019/junio/0790103/Index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="img/lic_PalomaXchelVazquezDavila.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Methodology to simulate a complex building using EnergyPlus: detailed case study for building 3.1
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('RW5lcmd5UGx1cw=='); return false;">EnergyPlus</div>
+
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Paloma Xchel Vázquez Dávila
+</div>
+<div class="listing-date">
+4 mar 2021
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="6" data-categories="RGlzcG9zaXRpdm9z" data-listing-date-sort="1623301200000">
+<a href="http://132.248.9.195/ptd2021/octubre/0816491/Index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="img/lic_MarianaLopezMagana.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+High Dynamic Range photography for daylighting measurements with open technologies
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('RGlzcG9zaXRpdm9z'); return false;">Dispositivos</div>
+
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Mariana López Magaña
+</div>
+<div class="listing-date">
+10 jun 2021
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="7" data-categories="ZGF0YXNjaWVuY2UlMkNFbmVyZ3lQbHVz" data-listing-date-sort="1644386400000">
+<a href="http://132.248.9.195/ptd2022/agosto/0829083/Index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="img/lic_AlejandroIsmaelGuadarramaZendejas.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Meteorological data imputation and its impact on EnergyPlus simulations
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('ZGF0YXNjaWVuY2U='); return false;">datascience</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('RW5lcmd5UGx1cw=='); return false;">EnergyPlus</div>
+
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Alejandro Ismael Guadarrama Zendejas
+</div>
+<div class="listing-date">
+9 feb 2022
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="8" data-categories="UmFkaWFuY2U=" data-listing-date-sort="1791525600000">
+<a href="pdfs/lic_AnaPatriciaEscobarGonzalez.pdf" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="img/lic_AnaPatriciaEscobarGonzalez.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Análisis de la iluminación natural en aulas escolares y eficiencia energética, caso de estudio: Escuela de Arquitectura U.L.
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('UmFkaWFuY2U='); return false;">Radiance</div>
+
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Ana Patricia Escobedo González
+</div>
+<div class="listing-date">
+9 oct 2026
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="9" data-categories="RW5lcmd5UGx1cw==" data-listing-date-sort="1791525600000">
+<a href="https://tesiunamdocumentos.dgb.unam.mx/ptd2025/jul_sep/0877748/Index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="img/lic_JessicaNevarezBarrera.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Evaporative cooling in the Instituto de Energías Renovables
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('RW5lcmd5UGx1cw=='); return false;">EnergyPlus</div>
+
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Jessica Nevárez Barrera
+</div>
+<div class="listing-date">
+9 oct 2026
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="10" data-categories="RGlzcG9zaXRpdm9zJTJDQ29uZm9ydCUyMHQlQzMlQTlybWljbw==" data-listing-date-sort="1812520800000">
+<a href="https://altamarmx.github.io/DTHIS-C/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="img/lic_JoseRamonHernandezAguilar.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Desarrollo e implementación con tecnologías libres de un dispositivo portatil para evaluar el confort térmico, lumínico y acústico en interiores
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('RGlzcG9zaXRpdm9z'); return false;">Dispositivos</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Q29uZm9ydCUyMHQlQzMlQTlybWljbw=='); return false;">Confort térmico</div>
+
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+José Ramón Hernández Aguilar
+</div>
+<div class="listing-date">
+9 jun 2027
+</div>
+</div>
+</div>
+</div></a>
+</div>
 </div>
 <div class="listing-no-matching d-none">No hay resultados</div>
 </div>
@@ -474,289 +711,113 @@ Jorge Miguel Casas Arredondo
 <h2 class="anchored" data-anchor-id="maestría">Maestría</h2>
 <div id="listing-maestria" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="ZGF0YXNjaWVuY2U=">
-<a href="" class="quarto-grid-link">
+<div class="g-col-1" data-index="0" data-categories="RUhMUyUyQ1RSQU5TRkVSRU5DSUElMjBERSUyMENBTE9S" data-listing-date-sort="1456812000000">
+<a href="http://132.248.9.195/ptd2016/marzo/0742261/Index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="img/m_LuceroAngeles.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
 <div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Estudio numérico de la transferencia de calor en muros de bloques huecos de concreto
+</h5>
 <div class="listing-categories">
 
-<div class="listing-category" onclick="window.quartoListingCategory('ZGF0YXNjaWVuY2U='); return false;">datascience</div>
+<div class="listing-category" onclick="window.quartoListingCategory('RUhMUw=='); return false;">EHLS</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('VFJBTlNGRVJFTkNJQSUyMERFJTIwQ0FMT1I='); return false;">TRANSFERENCIA DE CALOR</div>
 
 </div>
-<div class="card-attribution card-text-small start">
+<div class="card-attribution card-text-small justify">
 <div class="listing-author">
-Erick Jair Romo
+Lucero Ángeles de la Cruz
+</div>
+<div class="listing-date">
+1 mar 2016
 </div>
 </div>
-<table class="card-other-values">
-
-<tbody><tr>
-<td>
-Institución
-</td>
-<td class="Institución">
-IER, UNAM
-</td>
-</tr>
-
-<tr>
-<td>
-Tema
-</td>
-<td class="Tema">
-Análisis de datos y simulaciones de vivienda
-</td>
-</tr>
-
-</tbody></table>
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="ZGF0YXNjaWVuY2UlMkNSYWRpYW5jZQ==">
-<a href="" class="quarto-grid-link">
+<div class="g-col-1" data-index="1" data-categories="UkFESUFOQ0UlMkNJTFVNSU5BQ0klQzMlOTNOJTIwTkFUVVJBTA==" data-listing-date-sort="1483250400000">
+<a href="http://132.248.9.195/ptd2017/enero/0754866/Index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="img/m_VerushkaGomez.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
 <div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Simulación de la iluminación natural y el desempeño térmico de un espacio con un tubo solar
+</h5>
 <div class="listing-categories">
 
-<div class="listing-category" onclick="window.quartoListingCategory('ZGF0YXNjaWVuY2U='); return false;">datascience</div>
+<div class="listing-category" onclick="window.quartoListingCategory('UkFESUFOQ0U='); return false;">RADIANCE</div>
 
-<div class="listing-category" onclick="window.quartoListingCategory('UmFkaWFuY2U='); return false;">Radiance</div>
+<div class="listing-category" onclick="window.quartoListingCategory('SUxVTUlOQUNJJUMzJTkzTiUyME5BVFVSQUw='); return false;">ILUMINACIÓN NATURAL</div>
 
 </div>
-<div class="card-attribution card-text-small start">
+<div class="card-attribution card-text-small justify">
 <div class="listing-author">
-Diana Fernández Duque
+Verushka Gómez Dickinson
+</div>
+<div class="listing-date">
+1 ene 2017
 </div>
 </div>
-<table class="card-other-values">
-
-<tbody><tr>
-<td>
-Institución
-</td>
-<td class="Institución">
-CUCEI, Universidad de Guadalajara
-</td>
-</tr>
-
-<tr>
-<td>
-Tema
-</td>
-<td class="Tema">
-Iluminación natural y redes neuronales
-</td>
-</tr>
-
-</tbody></table>
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="ZGF0YXNjaWVuY2UlMkNjb25mb3J0JTIwdCVDMyVBOXJtaWNv">
-<a href="" class="quarto-grid-link">
+<div class="g-col-1" data-index="2" data-categories="TlpFQiUyQ0VORVJHWVBMVVM=" data-listing-date-sort="1714543200000">
+<a href="http://132.248.9.195/ptd2024/abr_jun/0856086/Index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="img/m_IgnacioMacielHernandez.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
 <div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Evaluation of the NZEB definitions in a new building at IER-UNAM
+</h5>
 <div class="listing-categories">
 
-<div class="listing-category" onclick="window.quartoListingCategory('ZGF0YXNjaWVuY2U='); return false;">datascience</div>
+<div class="listing-category" onclick="window.quartoListingCategory('TlpFQg=='); return false;">NZEB</div>
 
-<div class="listing-category" onclick="window.quartoListingCategory('Y29uZm9ydCUyMHQlQzMlQTlybWljbw=='); return false;">confort térmico</div>
+<div class="listing-category" onclick="window.quartoListingCategory('RU5FUkdZUExVUw=='); return false;">ENERGYPLUS</div>
 
 </div>
-<div class="card-attribution card-text-small start">
+<div class="card-attribution card-text-small justify">
 <div class="listing-author">
-Angel David Jimémez Godoy
+José Ignacio Maciel Hernández
+</div>
+<div class="listing-date">
+1 may 2024
 </div>
 </div>
-<table class="card-other-values">
-
-<tbody><tr>
-<td>
-Institución
-</td>
-<td class="Institución">
-CIEP, UASLB
-</td>
-</tr>
-
-<tr>
-<td>
-Tema
-</td>
-<td class="Tema">
-Colaboración en confort térmico y redes neuronales
-</td>
-</tr>
-
-</tbody></table>
 </div>
 </div></a>
 </div>
-</div>
-<div class="listing-no-matching d-none">No hay resultados</div>
-</div>
-</section>
-<section id="doctorado" class="level2">
-<h2 class="anchored" data-anchor-id="doctorado">Doctorado</h2>
-<div id="listing-doctorado" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="RW5lcmd5UGx1cyUyQ2NvbmZvcnQlMjB0JUMzJUE5cm1pY28=">
-<a href="" class="quarto-grid-link">
+<div class="g-col-1" data-index="3" data-categories="RGlzcG9zaXRpdm9z" data-listing-date-sort="1743487200000">
+<a href="https://altamarmx.github.io/reloj_inteligente/" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="img/m_JulioLopezLanda.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
 <div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Reloj inteligente IoT basado en tecnologías abiertas para la recopilación de datos de confort térmico
+</h5>
 <div class="listing-categories">
 
-<div class="listing-category" onclick="window.quartoListingCategory('RW5lcmd5UGx1cw=='); return false;">EnergyPlus</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('Y29uZm9ydCUyMHQlQzMlQTlybWljbw=='); return false;">confort térmico</div>
+<div class="listing-category" onclick="window.quartoListingCategory('RGlzcG9zaXRpdm9z'); return false;">Dispositivos</div>
 
 </div>
-<div class="card-attribution card-text-small start">
+<div class="card-attribution card-text-small justify">
 <div class="listing-author">
-Anahi Acevedo Solis
+Julio López Landa
+</div>
+<div class="listing-date">
+1 abr 2025
 </div>
 </div>
-<table class="card-other-values">
-
-<tbody><tr>
-<td>
-Institución
-</td>
-<td class="Institución">
-Facultad de Arquitectura, UNAM.
-</td>
-</tr>
-
-<tr>
-<td>
-Tema
-</td>
-<td class="Tema">
-Ventilación natural y confort en vivienda social
-</td>
-</tr>
-
-</tbody></table>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="RW5lcmd5UGx1cyUyQ0xDQQ==">
-<a href="" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('RW5lcmd5UGx1cw=='); return false;">EnergyPlus</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('TENB'); return false;">LCA</div>
-
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-Xicoténcatl Saucedo Anaya
-</div>
-</div>
-<table class="card-other-values">
-
-<tbody><tr>
-<td>
-Institución
-</td>
-<td class="Institución">
-UACTLM, Universidad Autónoma de Zacatecas.
-</td>
-</tr>
-
-<tr>
-<td>
-Tema
-</td>
-<td class="Tema">
-Cuantificación de CO2 en edicificaciones
-</td>
-</tr>
-
-</tbody></table>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="RW5lcmd5UGx1cyUyQ2NvbmZvcnQlMjB0JUMzJUE5cm1pY28=">
-<a href="" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('RW5lcmd5UGx1cw=='); return false;">EnergyPlus</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('Y29uZm9ydCUyMHQlQzMlQTlybWljbw=='); return false;">confort térmico</div>
-
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-Uriel Silva González
-</div>
-</div>
-<table class="card-other-values">
-
-<tbody><tr>
-<td>
-Institución
-</td>
-<td class="Institución">
-Facultad de Arquitectura y Urbanismo, Universidad Autónoma de Guerrero.
-</td>
-</tr>
-
-<tr>
-<td>
-Tema
-</td>
-<td class="Tema">
-Transfiguración y vivienda tradicional
-</td>
-</tr>
-
-</tbody></table>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="3" data-categories="UmFkaWFuY2UlMkNkYXRhc2NpZW5jZQ==">
-<a href="" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('UmFkaWFuY2U='); return false;">Radiance</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('ZGF0YXNjaWVuY2U='); return false;">datascience</div>
-
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-Rodolfo Rentería Ramírez
-</div>
-</div>
-<table class="card-other-values">
-
-<tbody><tr>
-<td>
-Institución
-</td>
-<td class="Institución">
-Instituto Tecnológico de la Laguna.
-</td>
-</tr>
-
-<tr>
-<td>
-Tema
-</td>
-<td class="Tema">
-Irradiancia solar y paneles bifaciales
-</td>
-</tr>
-
-</tbody></table>
 </div>
 </div></a>
 </div>

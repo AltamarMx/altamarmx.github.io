@@ -60,3 +60,32 @@
   categories: [datascience, EnergyPlus] 
 
   
+
+- author:  "Ana Patricia Escobedo González"
+  title: "Análisis de la iluminación natural en aulas escolares y eficiencia energética, caso de estudio: Escuela de Arquitectura U.L."
+  image: img/lic_AnaPatriciaEscobarGonzalez.png
+  path: pdfs/lic_AnaPatriciaEscobarGonzalez.pdf
+  date: "22/09/2025"
+  categories: [Radiance] 
+
+  
+
+- author:  "Jessica Nevárez Barrera"
+  title: "Evaporative cooling in the Instituto de Energías Renovables"
+  image: img/lic_JessicaNevarezBarrera.png
+  path: https://tesiunamdocumentos.dgb.unam.mx/ptd2025/jul_sep/0877748/Index.html
+  date: "22/09/2025"
+  categories: [EnergyPlus] 
+
+  
+
+- author:  "José Ramón Hernández Aguilar"
+  title: "Desarrollo e implementación con tecnologías libres de un 
+          dispositivo portatil para evaluar el confort térmico, 
+          lumínico y acústico en interiores"
+  image: img/lic_JoseRamonHernandezAguilar.png
+  path: https://altamarmx.github.io/DTHIS-C/
+  date: "30/09/2025"
+  categories: [Dispositivos, Confort térmico] 
+
+  

@@ -1,12 +1,35 @@
 ---
 title: "Estudiantes"
 listing:
-  filter-ui: true
-  id: estudiantes
-  contents: 
-    - licenciatura.yaml
-    - maestria.yaml
-    - doctorado.yaml
-  type: grid
----
+  - id: licenciatura
+    contents: "estudiantes/licenciatura_proceso.yaml"
+    type: grid 
+    sort: "date"
+    # filter-ui: [categories]
+
+  - id: maestria
+    contents: "estudiantes/maestria_proceso.yaml"
+    type: grid
+    sort: "date"
+
+  - id: doctorado
+    contents: "estudiantes/doctorado_proceso.yaml"
+    type: grid
+    sort: "date"
+--- 
  
+
+## Licenciatura
+
+:::{#licenciatura}
+:::
+
+## Maestría
+
+:::{#maestria}
+:::
+
+## Doctorado
+
+:::{#doctorado}
+:::

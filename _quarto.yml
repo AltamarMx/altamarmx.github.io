@@ -12,10 +12,13 @@ website:
       - articulos.qmd
       - text: "Estudiantes"
         menu:
-        - href: graduades.qmd
+        - href: estudiantes_graduades.qmd
           text: "Studs graduades"
         - href: estudiantes_proceso.qmd
           text: "Studs en proceso"
+      - text: "CV"
+        href: https://altamarmx.github.io/cv_quarto/
+      
 format:
   html:
     theme:

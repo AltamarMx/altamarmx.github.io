@@ -1,0 +1,20 @@
+
+- author: Anahi Acevedo Solis 
+  Institución: Facultad de Arquitectura, UNAM.
+  Tema: Ventilación natural y confort en vivienda social
+  categories: [EnergyPlus, confort térmico]
+
+- author: Xicoténcatl Saucedo Anaya 
+  Institución: UACTLM, Universidad Autónoma de Zacatecas.
+  Tema: Cuantificación de CO2 en edicificaciones
+  categories: [EnergyPlus, LCA]
+
+- author: Uriel Silva González
+  Institución: Facultad de Arquitectura y Urbanismo, Universidad Autónoma de Guerrero.
+  Tema: Transfiguración y vivienda tradicional
+  categories: [EnergyPlus, confort térmico]
+
+- author: Rodolfo Rentería Ramírez
+  Institución: Instituto Tecnológico de la Laguna.
+  Tema: Irradiancia solar y paneles bifaciales
+  categories: [Radiance, datascience]

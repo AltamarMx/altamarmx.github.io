@@ -31,10 +31,19 @@ about:
 
 
 # css: styles.css  # Link to your custom CSS file
+format:
+  html:
+    code-copy: true
 ---
 
 
 :::{##hero-heading} 
+
+<!-- :::{.hero-email} -->
+```python
+gbv@ier.unam.mx
+```
+<!-- ::: -->
 
 [Instituto de Energías Renovables](https://www.ier.unam.mx), UNAM.
 

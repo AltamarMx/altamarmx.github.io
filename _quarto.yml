@@ -16,6 +16,10 @@ website:
           text: "Studs graduades"
         - href: estudiantes_proceso.qmd
           text: "Studs en proceso"
+      - href: cursos.qmd
+        text: "Cursos"
+      # - href: repositorios.qmd
+      #   text: "Repositorios"
       - text: "CV"
         href: https://altamarmx.github.io/cv_quarto/
       

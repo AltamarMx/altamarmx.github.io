@@ -1,0 +1,13 @@
+---
+title: "Cursos"
+listing:
+  contents: 
+    - title: "Simulaciones energéticas de edificaciones usando OpenStudio y Energyplus"
+      image: img/curso_OpenStudio.png
+      description: A través de SketchUp y OpenStudio realizarás simulaciones para evaluar el desempeño térmico de edificaciones con y sin uso de aire acondicionado para realizar simulaciones en EnergyPlus y verás un análisis básico de datos usando Jupyter como interfaz de Python.
+      
+
+
+---
+ 
+

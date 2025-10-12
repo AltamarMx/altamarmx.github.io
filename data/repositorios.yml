@@ -1,0 +1,61 @@
+# Datos para la página de repositorios. Duplica este archivo o edítalo
+# para agregar más secciones o proyectos.
+
+sections:
+  - id: destacados
+    title: "Proyectos propios"
+    description: "Proyectos desarrollados en el IER,UNAM."
+    repositories:
+      - name: "Sitio personal académico en Quarto"
+        repo: "altamarmx/altamarmx.github.io"
+        website: "https://altamarmx.github.io"
+        description: "Código fuente de este sitio, construido con Quarto, Python y desplegado con GitHub Pages."
+        topics:
+          - quarto
+          - github-pages
+          - python
+          - cv
+        status: "En desarrollo continuo"
+        highlight: true
+      - name: "DTHIS-C"
+        repo: "lata-mas/DTHIS-Campaign"
+        website: "https://altamarmx.github.io/DTHIS-C/"
+        description: "Dispositivo para campañas de confort térmico. 
+                      El DTHIS-C mide temperatura ambiente en 4 alturas, humedad relativa,
+                      magnitud de la velocidad del viento, niveles de CO2, niveles
+                      de sonido y medición de iluminación. Desarrollado por José Ramón Hernández."
+        topics:
+          - dispositivo
+          - confort térmico
+          - hardware libre
+          - calidad del aire
+          - iluminación natural
+        status: "Terminado"
+        highlight: true
+      - name: "Reloj inteligente"
+        repo: "JulioLanda4/IoT_Reloj_Confort"
+        website: "https://altamarmx.github.io/reloj_inteligente/"
+        description: "Reloj inteligente basado en el ESP32. Mide frecuencia cardiaca
+                      y temperatura de la piel. Realiza una encuesta simplificada de confort
+                      y guarda todos los datos en una plataforma IoT. Desarrollado por 
+                      Julio Landa."
+        topics:
+          - dispositivo
+          - confort térmico
+          - hardware libre
+        status: "Terminado"
+        highlight: true
+
+
+  - id: utilidades
+    title: "Recursos y utilidades"
+    description: "Material de apoyo, plantillas y experimentos que complementan el trabajo principal."
+    repositories:
+      - name: "CV en Quarto"
+        repo: "altamarmx/cv_quarto"
+        website: "https://altamarmx.github.io/cv_quarto/"
+        description: "Plantilla en Quarto para generar un CV académico, con componentes personalizables."
+        topics:
+          - quarto
+          - curriculum
+        status: "Actualizado esporádicamente"

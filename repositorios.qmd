@@ -1,4 +1,134 @@
 ---
 title: "Repos destacados"
 page-layout: full
+format:
+  html:
+    toc: false
+    css: repositorios.css
+execute:
+  echo: false
 ---
+
+
+```{python}
+from html import escape
+from pathlib import Path
+from typing import Iterable
+
+import yaml
+from IPython.display import HTML, display
+
+
+def safe_join(classes: Iterable[str]) -> str:
+    """Une clases CSS filtrando valores vacíos."""
+    return " ".join(cls for cls in classes if cls)
+
+
+def safe_url(url: str | None) -> str | None:
+    """Escapa URLs conservando comillas."""
+    if not url:
+        return None
+    return escape(url, quote=True)
+
+
+def render_repo_card(repo: dict) -> str:
+    """Renderiza una tarjeta HTML para un repositorio."""
+    title = escape(repo.get("name", "Repositorio sin nombre"))
+    description = repo.get("description")
+    repo_slug = repo.get("repo")
+    github_url = repo.get("github_url") or (f"https://github.com/{repo_slug}" if repo_slug else None)
+    website_url = repo.get("website")
+    topics = repo.get("topics", [])
+    status = repo.get("status")
+    updated = repo.get("updated")
+    extra_links = repo.get("links", [])
+    highlight = repo.get("highlight")
+
+    card_classes = safe_join(["repo-card", "repo-card--highlight" if highlight else ""])
+
+    parts: list[str] = [f'<article class="{card_classes}">', '<header class="repo-card__header">']
+
+    title_link = website_url or github_url
+    if title_link:
+        parts.append(
+            f'<h3 class="repo-card__title"><a href="{safe_url(title_link)}" target="_blank" rel="noopener">{title}</a></h3>'
+        )
+    else:
+        parts.append(f'<h3 class="repo-card__title">{title}</h3>')
+
+    link_items: list[str] = []
+    if github_url:
+        link_items.append(f'<a class="repo-card__link" href="{safe_url(github_url)}" target="_blank" rel="noopener">Código</a>')
+    if website_url and website_url != github_url:
+        link_items.append(f'<a class="repo-card__link" href="{safe_url(website_url)}" target="_blank" rel="noopener">Sitio</a>')
+
+    for link in extra_links:
+        link_url = safe_url(link.get("url"))
+        link_text = escape(link.get("text", "Enlace"))
+        if link_url:
+            link_items.append(f'<a class="repo-card__link" href="{link_url}" target="_blank" rel="noopener">{link_text}</a>')
+
+    if link_items:
+        parts.append('<div class="repo-card__links">' + " · ".join(link_items) + "</div>")
+
+    parts.append("</header>")
+
+    if description:
+        parts.append(f'<p class="repo-card__description">{escape(description)}</p>')
+
+    if topics:
+        topics_html = "".join(f"<li>{escape(str(topic))}</li>" for topic in topics)
+        parts.append(f'<ul class="repo-card__topics">{topics_html}</ul>')
+
+    meta_items: list[str] = []
+    if status:
+        meta_items.append(f'<span class="repo-card__status">{escape(status)}</span>')
+    if updated:
+        meta_items.append(f'<span class="repo-card__updated">Actualizado {escape(updated)}</span>')
+
+    if meta_items:
+        parts.append('<footer class="repo-card__meta">' + " · ".join(meta_items) + "</footer>")
+
+    parts.append("</article>")
+
+    return "".join(parts)
+
+
+data_path = Path("data") / "repositorios.yml"
+
+if not data_path.exists():
+    display(
+        HTML('<div class="repo-warning">No se encontró <code>data/repositorios.yml</code>. Crea el archivo para listar proyectos.</div>')
+    )
+else:
+    repo_data = yaml.safe_load(data_path.read_text(encoding="utf-8")) or {}
+    sections_html: list[str] = []
+
+    for section in repo_data.get("sections", []):
+        repositories = section.get("repositories", [])
+        if not repositories:
+            continue
+
+        section_id = escape(section.get("id") or section.get("title", "repos").lower().replace(" ", "-"))
+        section_title = escape(section.get("title", ""))
+        section_description = section.get("description")
+
+        cards_html = "".join(render_repo_card(repo) for repo in repositories)
+
+        section_parts = [f'<section class="repo-section" id="{section_id}">']
+        if section_title:
+            section_parts.append(f'<h2 class="repo-section__title">{section_title}</h2>')
+        if section_description:
+            section_parts.append(f'<p class="repo-section__description">{escape(section_description)}</p>')
+        section_parts.append(f'<div class="repo-grid">{cards_html}</div>')
+        section_parts.append("</section>")
+
+        sections_html.append("".join(section_parts))
+
+    if sections_html:
+        display(HTML("\n".join(sections_html)))
+    else:
+        display(
+            HTML('<div class="repo-warning">No hay repositorios configurados en <code>data/repositorios.yml</code>.</div>')
+        )
+```

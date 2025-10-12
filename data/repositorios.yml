@@ -3,8 +3,8 @@
 
 sections:
   - id: destacados
-    title: "Proyectos propios"
-    description: "Proyectos desarrollados en el IER,UNAM."
+    title: "Proyectos"
+    description: "Proyectos desarrollados en el IER, LATA o colaboraciones"
     repositories:
       - name: "Sitio personal académico en Quarto"
         repo: "altamarmx/altamarmx.github.io"

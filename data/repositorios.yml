@@ -17,6 +17,7 @@ sections:
           - cv
         status: "En desarrollo continuo"
         highlight: true
+
       - name: "DTHIS-C"
         repo: "lata-mas/DTHIS-Campaign"
         website: "https://altamarmx.github.io/DTHIS-C/"
@@ -32,6 +33,7 @@ sections:
           - iluminación natural
         status: "Terminado"
         highlight: true
+        
       - name: "Reloj inteligente"
         repo: "JulioLanda4/IoT_Reloj_Confort"
         website: "https://altamarmx.github.io/reloj_inteligente/"
@@ -44,6 +46,32 @@ sections:
           - confort térmico
           - hardware libre
         status: "Terminado"
+        highlight: true
+        
+      - name: "iertools"
+        repo: "altamarmx/iertools"
+        # website: "https://altamarmx.github.io/reloj_inteligente/"
+        description: "Paquete alojado en github para el manejo de datos de 
+                      simulaciones de EnergyPlus, EPWs, trayectoria solar, descarga
+                      de datos de ThingsBoard."
+        topics:
+          - EnergyPlus
+          - EPW
+          - ThingsBoard
+          - Sunpath
+        status: "A la mitad"
+        highlight: true
+        
+      - name: "EnerHabitat"
+        repo: "altamarmx/enerhabitat"
+        website: "https://pypi.org/project/enerhabitat/"
+        description: "EnerHabitat: Paquete en Python y Numpy para resolver la transferencia
+                      de calor dependiente del tiempo en sistemas constructivos de una edificación
+                      bajo condición de uso y no uso de aire acondicionado."
+        topics:
+          - Transferencia de calor
+          - Desempeño térmico
+        status: "En desarrollo"
         highlight: true
 
 

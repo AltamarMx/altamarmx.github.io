@@ -6,6 +6,7 @@ listing:
     - title: "EnerHabitat WebApp"
       image: img/enerhabitat.png
       description: Webapp para evaluar el desempeño térmico de sistemas constructivos de edificaciones en Python y Shiny. Desarrollada en conjunto con Fernando Rodríguez Calderón.
+      path: https://www.enerhabitat.unam.mx/
     - title: "Paquete EnerHabitat"
       image: img/enerhabitat-pypi.png
       description: Paquete de Python en PyPi para evaluar el desempeño térmico de sistemas constructivos de la envolvente, desarrollado  junto con Fernando Rodríguez Calderón.
@@ -17,7 +18,7 @@ listing:
     - title: "Protecciones solares"
       image: img/proteccion_solar.png
       description: Webapp basada en Shiny, WASM y pyodide para la visualización y cálculo de protecciones solares. 
-      path: https://climalab.ier.unam.mx/  
+      path: https://ener-habitat.github.io/proteccion-solar/
   type: grid
   
       

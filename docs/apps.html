@@ -2,16 +2,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.37">
+<meta name="generator" content="quarto-1.8.26">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="Webapps desarrolladas para mis labores de investigación y docencia en el Instituto de Energías Renovables.">
 
-<title>Estudiantes – Guillermo Barrios</title>
+<title>Apps desarrolladas – Guillermo Barrios</title>
 <style>
-/* Default styles provided by pandoc.
-** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
-*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -37,18 +35,19 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-d0ae9245876894da5ac7e18953ecc5cc.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b758ccaa5987ceb1b75504551e579abf.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-7b3150b3e76ad77eaa625ee38791f7ea.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-0f31b74356b2b02fd32166dae64731ba.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-7b3150b3e76ad77eaa625ee38791f7ea.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-26827f95213357c060b998e0666f8ebe.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-86612a185ae401e74dff55a209fe26ab.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-26827f95213357c060b998e0666f8ebe.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -79,76 +78,20 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-licenciatura .list');
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-author','listing-Institución','listing-Tema','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-author","listing-Institución","listing-Tema","listing-categories"],
+      searchColumns: ["listing-title","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-licenciatura'] = new List('listing-licenciatura', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-maestria .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-author','listing-Institución','listing-Tema','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-author","listing-Institución","listing-Tema","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-maestria'] = new List('listing-maestria', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-doctorado .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-author','listing-Institución','listing-Tema','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-author","listing-Institución","listing-Tema","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-doctorado'] = new List('listing-doctorado', options);
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -164,7 +107,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="https://kit.fontawesome.com/TU_KIT.js" crossorigin="anonymous"></script>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <script type="text/javascript">
 const typesetMath = (el) => {
@@ -378,24 +321,17 @@ window.Quarto = {
     <a class="nav-link" href="./articulos.html"> 
 <span class="menu-text">Artículos</span></a>
   </li>  
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-estudiantes" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Estudiantes</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-estudiantes">    
-        <li>
-    <a class="dropdown-item" href="./estudiantes_graduades.html">
- <span class="dropdown-text">Studs graduades</span></a>
+  <li class="nav-item">
+    <a class="nav-link" href="./estudiantes_graduades.html"> 
+<span class="menu-text">Estudiantes</span></a>
   </li>  
-        <li>
-    <a class="dropdown-item" href="./estudiantes_proceso.html">
- <span class="dropdown-text">Studs en proceso</span></a>
-  </li>  
-    </ul>
-  </li>
   <li class="nav-item">
     <a class="nav-link" href="./cursos.html"> 
 <span class="menu-text">Cursos</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./apps.html" aria-current="page"> 
+<span class="menu-text">Apps</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./repositorios.html"> 
@@ -417,16 +353,8 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">En esta página</h2>
-   
-  <ul>
-  <li><a href="#licenciatura" id="toc-licenciatura" class="nav-link active" data-scroll-target="#licenciatura">Licenciatura</a></li>
-  <li><a href="#maestría" id="toc-maestría" class="nav-link" data-scroll-target="#maestría">Maestría</a></li>
-  <li><a href="#doctorado" id="toc-doctorado" class="nav-link" data-scroll-target="#doctorado">Doctorado</a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -434,9 +362,14 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Estudiantes</h1>
+<h1 class="title">Apps desarrolladas</h1>
 </div>
 
+<div>
+  <div class="description">
+    Webapps desarrolladas para mis labores de investigación y docencia en el Instituto de Energías Renovables.
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
@@ -451,351 +384,79 @@ window.Quarto = {
 </header>
 
 
-<section id="licenciatura" class="level2">
-<h2 class="anchored" data-anchor-id="licenciatura">Licenciatura</h2>
-<div id="listing-licenciatura" class="quarto-listing quarto-listing-container-grid">
+
+
+
+
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="ZGF0YXNjaWVuY2U=">
+<div class="g-col-1" data-index="0">
 <a href="" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="img/enerhabitat.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
 <div class="card-body post-contents">
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('ZGF0YXNjaWVuY2U='); return false;">datascience</div>
-
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-Benjamín Beltrán Santamaría
+<h5 class="no-anchor card-title listing-title">
+EnerHabitat WebApp
+</h5>
+<div class="card-text listing-description delink">
+<p>Webapp para evaluar el desempeño térmico de sistemas constructivos de edificaciones en Python y Shiny. Desarrollada en conjunto con Fernando Rodríguez Calderón.</p>
 </div>
 </div>
-<table class="card-other-values">
-
-<tbody><tr>
-<td>
-Institución
-</td>
-<td class="Institución">
-IER, UNAM.
-</td>
-</tr>
-
-<tr>
-<td>
-Tema
-</td>
-<td class="Tema">
-Tableros para literacidad bioclimática
-</td>
-</tr>
-
-</tbody></table>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1">
+<a href="https://pypi.org/project/enerhabitat/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="img/enerhabitat-pypi.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Paquete EnerHabitat
+</h5>
+<div class="card-text listing-description delink">
+<p>Paquete de Python en PyPi para evaluar el desempeño térmico de sistemas constructivos de la envolvente, desarrollado junto con Fernando Rodríguez Calderón.</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="2">
+<a href="https://climalab.ier.unam.mx/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="img/climalab.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+ClimaLab
+</h5>
+<div class="card-text listing-description delink">
+<p>Webapp basada en Shiny y Python para el manejo de datos de estaciones meteorológicas. Desarrollada en conjunto con Abdelaly, José de Jesús, Fernando, Pilar, Sophia y Erick.</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="3">
+<a href="https://climalab.ier.unam.mx/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="img/proteccion_solar.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Protecciones solares
+</h5>
+<div class="card-text listing-description delink">
+<p>Webapp basada en Shiny, WASM y pyodide para la visualización y cálculo de protecciones solares.</p>
+</div>
 </div>
 </div></a>
 </div>
 </div>
 <div class="listing-no-matching d-none">No hay resultados</div>
-</div>
-</section>
-<section id="maestría" class="level2">
-<h2 class="anchored" data-anchor-id="maestría">Maestría</h2>
-<div id="listing-maestria" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="ZGF0YXNjaWVuY2U=">
-<a href="" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('ZGF0YXNjaWVuY2U='); return false;">datascience</div>
-
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-Erick Jair Romo
-</div>
-</div>
-<table class="card-other-values">
-
-<tbody><tr>
-<td>
-Institución
-</td>
-<td class="Institución">
-IER, UNAM
-</td>
-</tr>
-
-<tr>
-<td>
-Tema
-</td>
-<td class="Tema">
-Análisis de datos y simulaciones de vivienda
-</td>
-</tr>
-
-</tbody></table>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="ZGF0YXNjaWVuY2UlMkNSYWRpYW5jZQ==">
-<a href="" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('ZGF0YXNjaWVuY2U='); return false;">datascience</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('UmFkaWFuY2U='); return false;">Radiance</div>
-
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-Diana Fernández Duque
-</div>
-</div>
-<table class="card-other-values">
-
-<tbody><tr>
-<td>
-Institución
-</td>
-<td class="Institución">
-CUCEI, Universidad de Guadalajara
-</td>
-</tr>
-
-<tr>
-<td>
-Tema
-</td>
-<td class="Tema">
-Iluminación natural y redes neuronales
-</td>
-</tr>
-
-</tbody></table>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="ZGF0YXNjaWVuY2UlMkNjb25mb3J0JTIwdCVDMyVBOXJtaWNv">
-<a href="" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('ZGF0YXNjaWVuY2U='); return false;">datascience</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('Y29uZm9ydCUyMHQlQzMlQTlybWljbw=='); return false;">confort térmico</div>
-
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-Angel David Jimémez Godoy
-</div>
-</div>
-<table class="card-other-values">
-
-<tbody><tr>
-<td>
-Institución
-</td>
-<td class="Institución">
-CIEP, UASLB
-</td>
-</tr>
-
-<tr>
-<td>
-Tema
-</td>
-<td class="Tema">
-Colaboración en confort térmico y redes neuronales
-</td>
-</tr>
-
-</tbody></table>
-</div>
-</div></a>
-</div>
-</div>
-<div class="listing-no-matching d-none">No hay resultados</div>
-</div>
-</section>
-<section id="doctorado" class="level2">
-<h2 class="anchored" data-anchor-id="doctorado">Doctorado</h2>
-<div id="listing-doctorado" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="RW5lcmd5UGx1cyUyQ2NvbmZvcnQlMjB0JUMzJUE5cm1pY28=">
-<a href="" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('RW5lcmd5UGx1cw=='); return false;">EnergyPlus</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('Y29uZm9ydCUyMHQlQzMlQTlybWljbw=='); return false;">confort térmico</div>
-
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-Anahi Acevedo Solis
-</div>
-</div>
-<table class="card-other-values">
-
-<tbody><tr>
-<td>
-Institución
-</td>
-<td class="Institución">
-Facultad de Arquitectura, UNAM.
-</td>
-</tr>
-
-<tr>
-<td>
-Tema
-</td>
-<td class="Tema">
-Ventilación natural y confort en vivienda social
-</td>
-</tr>
-
-</tbody></table>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="RW5lcmd5UGx1cyUyQ0xDQQ==">
-<a href="" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('RW5lcmd5UGx1cw=='); return false;">EnergyPlus</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('TENB'); return false;">LCA</div>
-
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-Xicoténcatl Saucedo Anaya
-</div>
-</div>
-<table class="card-other-values">
-
-<tbody><tr>
-<td>
-Institución
-</td>
-<td class="Institución">
-UACTLM, Universidad Autónoma de Zacatecas.
-</td>
-</tr>
-
-<tr>
-<td>
-Tema
-</td>
-<td class="Tema">
-Cuantificación de CO2 en edicificaciones
-</td>
-</tr>
-
-</tbody></table>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="RW5lcmd5UGx1cyUyQ2NvbmZvcnQlMjB0JUMzJUE5cm1pY28=">
-<a href="" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('RW5lcmd5UGx1cw=='); return false;">EnergyPlus</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('Y29uZm9ydCUyMHQlQzMlQTlybWljbw=='); return false;">confort térmico</div>
-
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-Uriel Silva González
-</div>
-</div>
-<table class="card-other-values">
-
-<tbody><tr>
-<td>
-Institución
-</td>
-<td class="Institución">
-Facultad de Arquitectura y Urbanismo, Universidad Autónoma de Guerrero.
-</td>
-</tr>
-
-<tr>
-<td>
-Tema
-</td>
-<td class="Tema">
-Transfiguración y vivienda tradicional
-</td>
-</tr>
-
-</tbody></table>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="3" data-categories="UmFkaWFuY2UlMkNkYXRhc2NpZW5jZQ==">
-<a href="" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('UmFkaWFuY2U='); return false;">Radiance</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('ZGF0YXNjaWVuY2U='); return false;">datascience</div>
-
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-Rodolfo Rentería Ramírez
-</div>
-</div>
-<table class="card-other-values">
-
-<tbody><tr>
-<td>
-Institución
-</td>
-<td class="Institución">
-Instituto Tecnológico de la Laguna.
-</td>
-</tr>
-
-<tr>
-<td>
-Tema
-</td>
-<td class="Tema">
-Irradiancia solar y paneles bifaciales
-</td>
-</tr>
-
-</tbody></table>
-</div>
-</div></a>
-</div>
-</div>
-<div class="listing-no-matching d-none">No hay resultados</div>
-</div>
-
-
-
-</section>
-
-</main> <!-- /main -->
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right

@@ -10,14 +10,12 @@ website:
       # - href: index.qmd
       #   text: Acerca de
       - articulos.qmd
-      - text: "Estudiantes"
-        menu:
-        - href: estudiantes_graduades.qmd
-          text: "Studs graduades"
-        - href: estudiantes_proceso.qmd
-          text: "Studs en proceso"
+      - href: "estudiantes_graduades.qmd"
+        text: "Estudiantes"
       - href: cursos.qmd
         text: "Cursos"
+      - href: apps.qmd
+        text: "Apps"
       - href: repositorios.qmd
         text: "Repositorios"
       - text: "CV"

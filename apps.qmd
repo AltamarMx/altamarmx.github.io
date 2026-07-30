@@ -1,0 +1,28 @@
+---
+title: "Apps desarrolladas"
+description: Webapps desarrolladas para mis labores de investigación y docencia en el Instituto de Energías Renovables.
+listing:
+  contents: 
+    - title: "EnerHabitat WebApp"
+      image: img/enerhabitat.png
+      description: Webapp para evaluar el desempeño térmico de sistemas constructivos de edificaciones en Python y Shiny. Desarrollada en conjunto con Fernando Rodríguez Calderón.
+    - title: "Paquete EnerHabitat"
+      image: img/enerhabitat-pypi.png
+      description: Paquete de Python en PyPi para evaluar el desempeño térmico de sistemas constructivos de la envolvente, desarrollado  junto con Fernando Rodríguez Calderón.
+      path: https://pypi.org/project/enerhabitat/
+    - title: "ClimaLab"
+      image: img/climalab.png
+      description: Webapp basada en Shiny y Python para el manejo de datos de estaciones meteorológicas. Desarrollada en conjunto con Abdelaly, José de Jesús, Fernando, Pilar, Sophia y Erick.
+      path: https://climalab.ier.unam.mx/ 
+    - title: "Protecciones solares"
+      image: img/proteccion_solar.png
+      description: Webapp basada en Shiny, WASM y pyodide para la visualización y cálculo de protecciones solares. 
+      path: https://climalab.ier.unam.mx/  
+  type: grid
+  
+      
+
+
+---
+ 
+
